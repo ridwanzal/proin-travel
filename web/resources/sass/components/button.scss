@@ -1,0 +1,34 @@
+.bt {
+   padding: 8px 16px;
+
+   &__lg {
+
+   }
+
+   &__sm {
+
+   }
+
+   &.block {
+      display: block;
+   }
+
+   &__white {
+      color: black;
+      background-color: white;
+      
+      &.border {
+         border: 1px solid white;
+         background-color: none !important;
+      }
+   }
+
+   &__black {
+      background-color: black;
+
+      &.border {
+         border: 1px solid black;
+         background-color: none !important;
+      }
+   }
+}
