@@ -1,0 +1,21 @@
+@import "vendors/bs5.scss";
+@import "vendors/animate.scss";
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.2/font/bootstrap-icons.css");
+// base
+@import "base/variables.scss";
+@import "base/reset.scss";
+
+@import "components/button.scss";
+@import "components/text.scss";
+
+// layouts
+@import "layouts/header.scss";
+@import "layouts/section.scss";
+@import "layouts/footer.scss";
+
+// components
+@import "components/button.scss";
+@import "components/text.scss";
+@import "components/cookie.scss";
+@import "components/masthead.scss";
+@import "components/image.scss";

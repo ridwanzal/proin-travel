@@ -1,0 +1,14 @@
+.cookie {
+   &__container {
+      z-index: 9999;
+      position: fixed;
+      width: 100%;
+      background: #04334d;
+      padding: 30px 0px;
+      font-size: 12px;
+      line-height: 16px;
+      bottom: 0px;
+      display: none;
+      margin: 0;
+   }
+}

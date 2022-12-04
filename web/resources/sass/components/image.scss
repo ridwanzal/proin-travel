@@ -1,0 +1,11 @@
+.image {
+    &__fullwidth {
+        width: 100%;
+    }
+
+    &__fullmobile {
+        @media #{$media-not-desktop} { 
+            width: 100%;
+        }
+    }
+}
