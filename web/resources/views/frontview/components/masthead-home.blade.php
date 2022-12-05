@@ -22,8 +22,12 @@
                 </div>
             </div>
             <div class="col col-12 col-lg-6">
-                <div class="pt-5">
-                    <img data-src="{{ asset('images/makkah.png') }}" alt="" class="lazyload" />
+                <div class="pt-5 mt-md-3 mb-5 mb-md-3">
+                    <img height="400px" width="auto" data-src="{{ asset('images/makkah.png') }}" alt=""
+                        class="d-lg-block d-none lazyload" />
+
+                    <img width="100%" data-src="{{ asset('images/makkah.png') }}" alt=""
+                        class="d-block d-lg-none lazyload" />
                 </div>
             </div>
         </div>
