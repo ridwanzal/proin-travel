@@ -1,0 +1,29 @@
+.swiper {
+   width: 100%;
+   height: 100%;
+ }
+
+ .swiper-slide {
+   font-size: 18px;
+
+   /* Center slide text vertically */
+   display: -webkit-box;
+   display: -ms-flexbox;
+   display: -webkit-flex;
+   display: flex;
+   -webkit-box-pack: center;
+   -ms-flex-pack: center;
+   -webkit-justify-content: center;
+   justify-content: center;
+ }
+
+ .swiper-slide img {
+   display: block;
+   width: 100%;
+   height: 100%;
+   object-fit: cover;
+ }
+
+ .swiper-pagination {
+   bottom: 125px !important;
+ }

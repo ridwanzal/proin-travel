@@ -11767,6 +11767,16 @@ p, label, span, ul, li, small {
     padding-bottom: 32px;
   }
 }
+.section__samecolor {
+  padding-top: 64px;
+  padding-bottom: 48px;
+}
+@media (max-width: 991px) {
+  .section__samecolor {
+    padding-top: 16px;
+    padding-bottom: 16px;
+  }
+}
 .section__main {
   padding-top: 64px;
   padding-bottom: 64px;
@@ -11969,4 +11979,28 @@ p, label, span, ul, li, small {
   .image__fullmobile {
     width: 100%;
   }
+}
+
+.swiper {
+  width: 100%;
+  height: 100%;
+}
+
+.swiper-slide {
+  font-size: 18px;
+  /* Center slide text vertically */
+  display: flex;
+  justify-content: center;
+}
+
+.swiper-slide img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.swiper-pagination {
+  bottom: 125px !important;
 }
