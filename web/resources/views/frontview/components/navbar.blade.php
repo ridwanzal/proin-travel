@@ -9,7 +9,7 @@
         <div class="collapse navbar-collapse pt-2 pb-2" id="navbarNav">
             <ul class="navbar-nav ml-auto" style="margin-left: auto;">
                 <li class="nav-item px-md-3">
-                    <a class="nav-link" aria-current="page" href="{{ url('/products') }}">Home</a>
+                    <a class="nav-link" aria-current="page" href="{{ url('/') }}">Home</a>
                 </li>
                 <li class="nav-item px-md-3">
                     <a class="nav-link" href="{{ url('/') }}">Testimoni</a>
