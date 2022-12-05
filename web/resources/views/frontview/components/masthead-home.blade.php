@@ -6,7 +6,7 @@
         <div class="row mt-5">
             <div class="col col-12 col-lg-6">
                 <div class="text-left pt-5 pb-4">
-                    <h5 class="pb-3 text__subtitle">Travel Perjalanan Umrah terbaik</h5>
+                    <h5 class="text__subtitle pb-2">Travel Perjalanan Umrah terbaik</h5>
                     <h1 class="masthead__title text__title animate__animated animate__fadeInUp pb-2">
                         Sahabat terbaik menuju Baitullah, aman dan terpercaya untuk keluarga anda
                     </h1>
@@ -41,7 +41,7 @@
             </div>
             <div class="col col-12 col-lg-12 text-center">
                 <p class="mb-4">
-                    Lihat review jujur mereka setelah menggunakan jasa
+                    Lihat review jujur mereka setelah menggunakan jasa<br />
                     Travel Perjalanan Umrah PROIN
                 </p>
             </div>

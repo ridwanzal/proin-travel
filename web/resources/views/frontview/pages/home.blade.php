@@ -10,6 +10,7 @@
         @include('frontview/components/product-featured')
         @include('frontview/components/section-about')
         @include('frontview/components/cert')
+        @include('frontview/components/section-kelebihan')
         {{-- @include('frontview/components/facilities-featured') --}}
         {{-- @include('frontview/components/contact') --}}
     </main>
