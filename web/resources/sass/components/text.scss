@@ -15,4 +15,17 @@
             color: $black;
         }
     }
+
+    &__title {
+        color: #2E5B43 !important;
+    }
+
+    &__subtitle {
+        color: #3A8D79 !important;
+    }
+}
+
+
+p, label, span, ul, li, small {
+    color: #666666;
 }

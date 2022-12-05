@@ -11702,6 +11702,16 @@ small {
   border-top-right-radius: 0;
 }
 
+.btn {
+  border-radius: 50px !important;
+  padding-left: 24px !important;
+  padding-right: 24px !important;
+}
+.btn-warning {
+  background-color: #F3610B !important;
+  color: #fff !important;
+}
+
 .bt {
   padding: 8px 16px;
 }
@@ -11735,6 +11745,16 @@ small {
 }
 .text__link:hover, .text__link:focus, .text__link:active {
   color: #000;
+}
+.text__title {
+  color: #2E5B43 !important;
+}
+.text__subtitle {
+  color: #3A8D79 !important;
+}
+
+p, label, span, ul, li, small {
+  color: #666666;
 }
 
 .section__productrange {
@@ -11796,6 +11816,16 @@ small {
 .text__link:hover, .text__link:focus, .text__link:active {
   color: #000;
 }
+.text__title {
+  color: #2E5B43 !important;
+}
+.text__subtitle {
+  color: #3A8D79 !important;
+}
+
+p, label, span, ul, li, small {
+  color: #666666;
+}
 
 .cookie__container {
   z-index: 9999;
@@ -11839,7 +11869,7 @@ small {
   }
 }
 .masthead__title {
-  font-size: 56px;
+  font-size: 42px;
 }
 @media (max-width: 991px) {
   .masthead__title {
