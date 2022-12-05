@@ -12,16 +12,16 @@
                     <a class="nav-link" aria-current="page" href="{{ url('/products') }}">Home</a>
                 </li>
                 <li class="nav-item px-md-3">
-                    <a class="nav-link" href="{{ url('/about') }}">Testimoni</a>
+                    <a class="nav-link" href="{{ url('/') }}">Testimoni</a>
                 </li>
                 <li class="nav-item px-md-3">
-                    <a class="nav-link" href="{{ url('/sources') }}">FAQ</a>
+                    <a class="nav-link" href="{{ url('/') }}">FAQ</a>
                 </li>
                 <li class="nav-item px-md-3">
-                    <a class="nav-link" href="{{ url('/facilities') }}">Paket Umrah</a>
+                    <a class="nav-link" href="{{ url('/') }}">Paket Umrah</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="{{ url('/contact') }}">Kontak</a>
+                    <a class="nav-link" href="{{ url('/') }}">Kontak</a>
                 </li>
             </ul>
         </div>
