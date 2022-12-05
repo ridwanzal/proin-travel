@@ -108,3 +108,14 @@ small {
   border-top-left-radius: 0;
   border-top-right-radius: 0;
 }
+
+.btn {
+  border-radius: 50px !important;
+  padding-left: 24px !important;
+  padding-right: 24px !important;
+
+  &-warning {
+    background-color: #F3610B !important;
+    color: #fff !important;
+  }
+}
