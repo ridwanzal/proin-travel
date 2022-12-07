@@ -11711,6 +11711,11 @@ small {
 .btn-warning {
   background-color: #F3610B !important;
   color: #fff !important;
+  border: 1px solid #F3610B !important;
+}
+.btn.border {
+  border: unset;
+  border: 1px solid #fff;
 }
 
 .navbar-nav .nav-item .nav-link {
@@ -11771,6 +11776,7 @@ p, label, span, ul, li, small {
 }
 
 .section__productrange {
+  border-top: none;
   padding-top: 72px;
   padding-bottom: 72px;
 }
@@ -11781,6 +11787,7 @@ p, label, span, ul, li, small {
   }
 }
 .section__samecolor {
+  border-top: none;
   padding-top: 72px;
   padding-bottom: 72px;
 }
@@ -11792,6 +11799,7 @@ p, label, span, ul, li, small {
 }
 .section__main {
   padding-top: 72px;
+  border-top: none;
   padding-bottom: 72px;
 }
 @media (max-width: 991px) {
@@ -11992,6 +12000,15 @@ p, label, span, ul, li, small {
   .image__fullmobile {
     width: 100%;
   }
+}
+.image__icon {
+  border-radius: 100px;
+  padding: 16px 28px;
+  font-size: 48px;
+  background: #277158;
+  margin-bottom: 32px;
+  display: inline-block;
+  color: white;
 }
 
 .swiper {
