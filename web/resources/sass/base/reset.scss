@@ -118,6 +118,12 @@ small {
   &-warning {
     background-color: #F3610B !important;
     color: #fff !important;
+    border: 1px solid #F3610B !important;
+  }
+
+  &.border {
+    border: unset;
+    border: 1px solid #fff;
   }
 }
 

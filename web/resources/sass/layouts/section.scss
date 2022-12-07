@@ -1,5 +1,6 @@
 .section {
    &__productrange {
+      border-top: none;
       padding-top: 72px;
       padding-bottom: 72px;
 
@@ -10,6 +11,7 @@
    }
 
    &__samecolor{
+      border-top: none;
       padding-top: 72px;
       padding-bottom: 72px;
 
@@ -21,6 +23,7 @@
 
    &__main {
       padding-top: 72px;
+      border-top: none;
       padding-bottom: 72px;
 
       @media #{$media-not-desktop} {  

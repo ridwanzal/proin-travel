@@ -11,7 +11,7 @@
               <div class="swiper-wrapper">
                   @for ($i = 0; $i <= 5; $i++)
                       <div class="swiper-slide">
-                          <div class="card mb-3 rounded-3" style="border:1px solid #efefef;">
+                          <div class="card mb-3 rounded-3">
                               <div class="row g-0">
                                   <div class="col-md-4">
                                       <img data-src="{{ asset('images/testimoni/2.jpg') }}" alt=""

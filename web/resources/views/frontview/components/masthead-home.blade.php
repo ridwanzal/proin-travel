@@ -18,14 +18,13 @@
                 </div>
                 <div
                     class="text-left masthead__subtitle masthead__title animate__animated animate__fadeInUp animate__delay-1s">
-                    <a href="{{ url('#section-info') }}" class="btn btn-warning">Informasi Selengkapnya</a>
+                    <a href="{{ url('#section-info') }}" class="btn btn-warning">Informasi Selengkapnya<i class="animate__animated animate__fadeInUp bi bi-chevron-down ms-4"></i></a>
                 </div>
             </div>
             <div class="col col-12 col-lg-6">
                 <div class="pt-5 mt-md-3 mb-5 mb-md-3">
                     <img height="400px" width="auto" data-src="{{ asset('images/makkah.png') }}" alt=""
                         class="d-lg-block d-none lazyload" />
-
                     <img width="100%" data-src="{{ asset('images/makkah.png') }}" alt=""
                         class="d-block d-lg-none lazyload" />
                 </div>
