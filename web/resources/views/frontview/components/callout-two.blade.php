@@ -3,7 +3,7 @@
     <div class="row">
         <div class="col col-12 col-md-12">
           <div class="text-center">
-            <h4 class="text-white mb-4">Raih kesempatan umrah gratis<br/> dan uang tunai jutaan rupiah</h4>
+            <h4 class="text-white mb-4 text__medium-headline">Raih kesempatan umrah gratis<br/> dan uang tunai jutaan rupiah</h4>
             <a href="{{ url('#section-info') }}" class="btn btn-warning">Informasi Selengkapnya</a>
           </div>
         </div>
