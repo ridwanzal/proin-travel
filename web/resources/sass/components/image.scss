@@ -17,5 +17,10 @@
         margin-bottom: 32px;
         display: inline-block;
         color: white;
+
+        &.light {
+            background: #DEEDE0 !important;
+            color: #2E5B43 !important;
+        }
     }
 }

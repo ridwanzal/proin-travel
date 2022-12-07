@@ -23,9 +23,20 @@
     &__subtitle {
         color: #3A8D79 !important;
     }
-}
 
+    &__medium-headline {
+        line-height: 1.7;
+    }
+
+    &__small-headline {
+        line-height: 1.7;
+    }
+}
 
 p, label, span, ul, li, small {
     color: #666666;
+}
+
+.no-list {
+    list-style: none;
 }

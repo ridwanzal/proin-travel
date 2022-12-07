@@ -2,7 +2,7 @@
     <div class="container">
         <div class="text-center pb-5 mb-3">
             <h1 class="text__title">
-                Dokumentasi Pelaksanaan Haji<br /> dengan PROIN
+                Dokumentasi Pelaksanaan Umroh<br /> dengan PROIN
             </h1>
             <p class="mb-3 d-block">Lihat review jujur mereka setelah menggunakan jasa<br /> Travel Perjalanan
                 Umrah

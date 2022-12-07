@@ -8,7 +8,6 @@
                         tidak menggunakan<br/>
                         PROIN Travel
                     </h1>
-                    <p class="text-danger fw-bold">Untuk Kamu yang DP hari ini !</p>
                 </div>
             </div>
         </div>
@@ -17,7 +16,7 @@
                 <div class="row">
                     <div class="col col-12 col-lg-3">
                         <div class="text-left">
-                            <i class="image__icon bi bi-airplane"></i>
+                            <i class="image__icon light bi bi-airplane"></i>
                             <h5 class="text__title">
                                 Terdapat potongan biaya
                             </h5>
@@ -28,7 +27,7 @@
                     </div>
                     <div class="col col-12 col-lg-3">
                         <div class="text-left">
-                            <i class="image__icon bi bi-easel"></i>
+                            <i class="image__icon light bi bi-easel"></i>
                             <h5 class="text__title">
                                 Gratis Kurma Ajwa
                             </h5>
@@ -39,7 +38,7 @@
                     </div>
                     <div class="col col-12 col-lg-3">
                         <div class="text-left">
-                            <i class="image__icon bi bi-briefcase"></i>
+                            <i class="image__icon light bi bi-briefcase"></i>
                             <h5 class="text__title">
                                 Gratis pengurusan dokumen
                             </h5>
@@ -50,7 +49,7 @@
                     </div>
                     <div class="col col-12 col-lg-3">
                         <div class="text-left">
-                            <i class="image__icon bi bi-briefcase"></i>
+                            <i class="image__icon light bi bi-gift"></i>
                             <h5 class="text__title">
                                 Gratis pengurusan dokumen
                             </h5>

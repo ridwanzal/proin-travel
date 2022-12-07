@@ -8,7 +8,7 @@
                     Dapatkan layanan perjalanan ibadah umrah dan haji<br/> sesuai Sunnah dengan memilih Proin Travel<br/> sebagai
                     agen perjalanan ibadah Anda.
                 </p>
-                <p style="font-size: 14px;">Jawa Barat, Indonesia</p>
+                <p style="font-size: 14px;" class="text-white">Jawa Barat, Indonesia</p>
             </div>
 
             <div class="col col-12 col-lg-3 mb-4">
