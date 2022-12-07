@@ -6,10 +6,11 @@
     </header>
     <main>
         @include('frontview/components/masthead-home')
-        @include('frontview/components/section-kendala')
-        @include('frontview/components/product-featured')
-        @include('frontview/components/section-about')
         @include('frontview/components/cert')
+        @include('frontview/components/section-kendala')
+        @include('frontview/components/section-about')
+        @include('frontview/components/section-testimoni')
+        @include('frontview/components/product-featured')
         @include('frontview/components/section-kelebihan')
         {{-- @include('frontview/components/facilities-featured') --}}
         {{-- @include('frontview/components/contact') --}}

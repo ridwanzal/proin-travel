@@ -8,16 +8,17 @@
 }
 
 body {
-    font-family: 'Source Sans Pro', sans-serif;   
+    font-family: 'Poppins', sans-serif;   
 }
 
 h1,h2,h3,h4,h5,h6 {
-    font-family: 'Source Sans Pro', sans-serif;   
+    font-family: 'Poppins', sans-serif;   
     font-weight: 700 !important;
 }
 
 p, ul, li, a, small, button{
-    font-family: 'Source Sans Pro', sans-serif;   
+    font-family: 'Poppins', sans-serif;   
+    line-height: 1.8;
 }
 p, ul, li, a, button {
     font-size: 17px;
@@ -28,7 +29,7 @@ small {
 }
 
 .btn, .card, input,select,label,textarea {
-    font-family: 'Source Sans Pro', sans-serif !important;  
+    font-family: 'Poppins', sans-serif !important;  
     border-radius: 2px !important; 
 }
 
@@ -117,5 +118,14 @@ small {
   &-warning {
     background-color: #F3610B !important;
     color: #fff !important;
+  }
+}
+
+.navbar-nav {
+  .nav-item {
+    .nav-link {
+      font-weight: 500;
+      color: #2E5B43 !important;
+    }
   }
 }

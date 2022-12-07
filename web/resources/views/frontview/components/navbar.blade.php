@@ -12,16 +12,19 @@
                     <a class="nav-link" aria-current="page" href="{{ url('/') }}">Home</a>
                 </li>
                 <li class="nav-item px-md-3">
+                    <a class="nav-link" aria-current="page" href="{{ url('/') }}">Paket Umroh</a>
+                </li>
+                <li class="nav-item px-md-3">
+                    <a class="nav-link" href="{{ url('/') }}">Haji Khusus</a>
+                </li>
+                <li class="nav-item px-md-3">
+                    <a class="nav-link" href="{{ url('/') }}">Daftar Agen</a>
+                </li>
+                <li class="nav-item px-md-3">
                     <a class="nav-link" href="{{ url('/') }}">Testimoni</a>
                 </li>
                 <li class="nav-item px-md-3">
                     <a class="nav-link" href="{{ url('/') }}">FAQ</a>
-                </li>
-                <li class="nav-item px-md-3">
-                    <a class="nav-link" href="{{ url('/') }}">Paket Umrah</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="{{ url('/') }}">Kontak</a>
                 </li>
             </ul>
         </div>

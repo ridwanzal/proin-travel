@@ -9,30 +9,18 @@
                 Terpercaya Untuk Keluarga Anda</p>
         </div>
         <div class="row mb-5 justify-content-center">
-            <div class="col col-12 col-lg-6">
-                <img data-src="{{ asset('images/testimoni/2.jpg') }}" alt=""
-                    class="img-fluid rounded-start lazyload" alt="..." width="95%">
-            </div>
-            <div class="col col-12 col-lg-6">
-                <p>
-                    Proin Travel Merupakan Biro Perjalanan Ibadah Umroh dan Haji Yang Berdiri Sejak Tahun 1999, Yang
-                    Mana Kami Telah Memiliki Izin Resmi dari Kemenag Sebagai Penyelenggara Layanan Ibadah Umroh & Haji.
-                </p>
-                <p>
-                    Sebagai Provider VISA Umroh In Syaa Allah Kami Dapat Menjamin Visa Umroh Jamaah Terbit Sebelum
-                    Tanggal Keberangkatan, Maka Jamaah Tidak Perlu Takut Kalau Tidak Jadi Berangkat Karena VISA Umroh
-                    Yang tidak Terbit dari Pemerintah Saudi Arabia
-                </p>
-                <p>
-                    Menggunakan Pesawat Tanpa Transit Agar Jamaah Tidak Merasakan Kelelahan Yang Berlebihan Selama
-                    Perjalanan dari Tanah Air Ke Tanah Suci Sehingga Bisa Tetap Sehat dan Bugar Saat Beribadah, Jadi
-                    Jamaah Tidak Perlu Cemas Karena Kecapean di Perjalanan
-                </p>
-                <p>
-                    Jarak Hotel Yang Dekat Dari Masjid Yang Bisa di Tempuh Dengan Jalan Kaki Akan Membuat Jamaah Bisa
-                    Beribadah Secara Optimal dan Tidak Terlalu Menguras Banyak Tenaga Sehingga In Syaa Allah Kondisi
-                    Badan Tetap Sehat & Fit Untuk Menjalankan Rangkaian Ibadah Lainnya Sampai Kepulangan ke Indonesia
-                </p>
+            <div class="col col-md-9">
+                <div class="row">
+                    <div class="col col-12 col-lg-6">
+                        <img data-src="{{ asset('images/testimoni/2.jpg') }}" alt=""
+                            class="img-fluid rounded-start lazyload" alt="..." width="95%">
+                    </div>
+                    <div class="col col-12 col-lg-6">
+                      <p>
+                        PT BPW Proconfo Indah Atau Biasa Dikenal Dengan Merek Dagang Proin Travel Berdiri Sejak Tahun 1999 Dan Resmi Memilik Izin Resmi Dari Kemenag Sebagai Penyelenggara Ibadah Umroh Sejak 05 September 2001 , Dengan Pengalaman Lebih Dari 20 Tahun In Syaa Allah Kami Siap Membantu Kaum Muslimin di Seluruh Indonesia Untuk Menunaikan Ibadah Umroh dan Haji Dengan Rasa Aman, Nyaman dan Terpercaya.
+                      </p>
+                    </div>
+                </div>
             </div>
         </div>
     </div>

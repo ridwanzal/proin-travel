@@ -1,4 +1,4 @@
-<section class="section_samecolor" style="background-color:#fff;">
+<section class="section__samecolor" style="background-color:#fff;">
     <div class="container">
         <div class="text-center pb-5 mb-3">
             <h1 class="text__title">
