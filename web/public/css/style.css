@@ -11617,6 +11617,7 @@ body {
 h1, h2, h3, h4, h5, h6 {
   font-family: "Poppins", sans-serif;
   font-weight: 700 !important;
+  line-height: 1.7 !important;
 }
 
 p, ul, li, a, small, button {
@@ -11715,7 +11716,14 @@ small {
 
 .navbar-nav .nav-item .nav-link {
   font-weight: 500;
+  font-size: 15px;
   color: #2E5B43 !important;
+}
+
+.list-group-item {
+  font-size: 14px;
+  padding-top: 8px;
+  padding-bottom: 8px;
 }
 
 .bt {

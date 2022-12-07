@@ -1,15 +1,9 @@
 
-<section class="section__main animate__animated animate__fadeInUp" style="background:#EDF6EE;" id="section-info">
+<section class="section__main animate__animated animate__fadeInUp" style="background:#000;" id="section-info">
   <div class="container">
       <div class="row">
           <div class="col col-12 col-lg-12 text-center">
-              <h1 class="text__title">Apa kata mereka tentang PROIN</h1>
-          </div>
-          <div class="col col-12 col-lg-12 text-center">
-              <p class="mb-4">
-                  Lihat review jujur mereka setelah menggunakan jasa<br />
-                  Travel Perjalanan Umrah PROIN
-              </p>
+              <h1 style="color:#F3610B;">Sebaiknya Anda Lihat Dulu<br/>Kata Mereka yang Sudah Menggunakan<br/> Layanan Kami</h1>
           </div>
       </div>
       <div class="row">
@@ -46,7 +40,7 @@
       <div class="row justify-content-center mt-3">
           <div class="col col-lg-12">
               <div class="text-center">
-                  <a href="{{ url('#section-info') }}" class="btn btn-warning">Pesan sekarang</a>
+                  <a href="{{ url('#section-info') }}" class="btn btn-warning">Lihat semua testimoni</a>
               </div>
           </div>
       </div>

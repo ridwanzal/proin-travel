@@ -12,8 +12,9 @@
         @include('frontview/components/section-testimoni')
         @include('frontview/components/product-featured')
         @include('frontview/components/section-kelebihan')
-        {{-- @include('frontview/components/facilities-featured') --}}
-        {{-- @include('frontview/components/contact') --}}
+        @include('frontview/components/callout-one')
+        @include('frontview/components/faq')
+        @include('frontview/components/callout-two')
     </main>
     <footer>
         @include('frontview/components/footer  ')
