@@ -2,8 +2,7 @@
     <div class="container">
         <div class="text-center mb-3 pb-3">
             <h1 class="" style="color: #FF8111;">
-                PROIN Travel Cocok<br/> Untuk Anda
-yang Ingin 
+                Proin travel Cocok Untuk….
             </h1>
             <p class="text-white mb-3 d-block">Mendapatkan pelayanan terbaik<br/>
                 tanpa ada masalah</p>

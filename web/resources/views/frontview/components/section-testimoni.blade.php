@@ -9,7 +9,7 @@
       <div class="row">
           <div class="swiper mySwiper mb-5 pt-5">
               <div class="swiper-wrapper">
-                  @for ($i = 0; $i <= 5; $i++)
+                  @for ($i = 0; $i < 1; $i++)
                       <div class="swiper-slide">
                           <div class="card mb-3 rounded-3">
                               <div class="row g-0">
@@ -19,13 +19,10 @@
                                   </div>
                                   <div class="col-md-8">
                                       <div class="card-body">
-                                          <h5 class="card-title">Card title</h5>
-                                          <p class="card-text">This is a wider card with supporting text below as a
-                                              natural lead-in to additional content. This content is a little bit
-                                              longer.
+                                          <p class="card-text">Ma Syaa Allah Saudia The Best, Makanan sampai ngga kemakan, Jus, Kopi Teh, Air beberapa menit sekali Pramugrasi Menawarkan Snack, Makan nasi pilihan lauknya Daging & Ayam temannya Pasta Macaroni dan Sayur.
                                           </p>
-                                          <p class="card-text"><small class="text-muted">Last updated 3 mins
-                                                  ago</small>
+                                          <p class="card-text"><small class="text-muted">Maskapai Penerbangan yang digunakan Proin Travel
+                                        </small>
                                           </p>
                                       </div>
                                   </div>

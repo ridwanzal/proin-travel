@@ -14,15 +14,12 @@
             <div class="col col-12 col-lg-3 mb-4">
                 <h5 class="mb-4 text-white">QUICK LINKS</h5>
                 <ul class="nav flex-column">
-                    <li class="nav-item mb-2 text-white"><a href="{{ url('/products') }}" class="text-white nav-link p-0    ">Our
-                            Products</a></li>
-                    <li class="nav-item mb-2 text-white"><a href="{{ url('/about') }}" class="text-white nav-link p-0 ">Our
-                            Story</a></li>
-                    <li class="nav-item mb-2 text-white"><a href="{{ url('/sources') }}" class="text-white nav-link p-0 ">Our
-                            Sources</a></li>
-                    <li class="nav-item mb-2 text-white"><a href="{{ url('/facilities') }}"
-                            class="nav-link p-0 text-white  ">Facilities</a></li>
-                    <li class="nav-item mb-2 text-white"><a href="{{ url('/contact') }}" class="text-white nav-link p-0">Contact
+                    <li class="nav-item mb-2 text-white"><a href="{{ url('/paket-umroh') }}" class="text-white nav-link p-0    ">Paket Umroh</a></li>
+                    <li class="nav-item mb-2 text-white"><a href="{{ url('/haji-khusus') }}" class="text-white nav-link p-0 ">Haji Khusus</a></li>
+                    <li class="nav-item mb-2 text-white"><a href="{{ url('/jadi-agen') }}" class="text-white nav-link p-0 ">Daftar Agen</a></li>
+                    <li class="nav-item mb-2 text-white"><a href="{{ url('/#section-info') }}"
+                            class="nav-link p-0 text-white  ">Testimoni</a></li>
+                    <li class="nav-item mb-2 text-white"><a href="{{ url('/#section-faq') }}" class="text-white nav-link p-0">FAQ
                             Us</a></li>
                 </ul>
             </div>

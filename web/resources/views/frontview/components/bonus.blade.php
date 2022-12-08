@@ -6,6 +6,9 @@
                     <h1 class="masthead__title text-white animate__animated animate__fadeInUp pb-2">
                         Bonus Eksklusif<br/>dari Kami
                     </h1>
+                    <p class="text-white">
+                        Dengan Total Bonus Senilai 600.000<br/>Kamu Bisa Membeli Tambahan Oleh-Oleh Untuk Keluarga Tercinta
+                    </p>
                     <p class="text-danger fw-bold">Untuk Kamu yang DP hari ini !</p>
                 </div>
             </div>
@@ -20,7 +23,7 @@
                                 Terdapat potongan biaya
                             </h5>
                             <p class="text-white">
-                                Bonus potongan biaya pengurusan paspor senilai 350 ribu
+                                Potongan Biaya Pembuatan Paspor Senilai 350.000
                             </p>
                         </div>
                     </div>
@@ -31,7 +34,7 @@
                                 Gratis Kurma Ajwa
                             </h5>
                             <p class="text-white">
-                                Kurma Ajwa yang dibagikan pada saaat tiba di Jakarat, senilai 200 ribu
+                                Kurma Ajwa Gratis Saat Kepulangan Senilai 200.000
                             </p>
                         </div>
                     </div>
@@ -42,7 +45,7 @@
                                 Gratis pengurusan dokumen
                             </h5>
                             <p class="text-white">
-                                Potongan biaya transport pengurusan dokumen senilai 50 ribu
+                                Biaya Transportasi Pengurusan Dokumeni Senilai 50.000
                             </p>
                         </div>
                     </div>
