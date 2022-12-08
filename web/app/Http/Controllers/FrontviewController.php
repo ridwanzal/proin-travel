@@ -11,28 +11,18 @@ class FrontviewController extends Controller
       return view('frontview/pages.home');
    }
 
-   public function products()
+   public function hajiKhusus()
    {
-      return view('frontview/pages.products');
+      return view('frontview/pages.haji-khusus');
    }
 
-   public function about()
+   public function jadiAgen()
    {
-      return view('frontview/pages.story');
+      return view('frontview/pages.jadi-agen');
    }
 
-   public function sources()
+   public function paketUmroh()
    {
-      return view('frontview/pages.sources');
-   }
-
-   public function facilities()
-   {
-      return view('frontview/pages.facilities');
-   }
-
-   public function contact()
-   {
-      return view('frontview/pages.contact');
+      return view('frontview/pages.paket-umroh');
    }
 }
