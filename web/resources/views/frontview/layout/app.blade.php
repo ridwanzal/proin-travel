@@ -37,14 +37,6 @@
     <!-- facebook pixel-->
     <meta name="facebook-domain-verification" content="218vl83ydcbrwjifwzhebr5l7t1ca0" />
     <!-- end facebook pixel-->
-
-    <!-- Google Tag Manager -->
-    <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
-    new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
-    j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-    'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-    })(window,document,'script','dataLayer','GTM-5JBR58P');</script>
-    <!-- End Google Tag Manager -->
     
     <!-- stylesheet preload async preconnect -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -64,6 +56,14 @@
     <link rel="apple-touch-icon" href="{{ asset('images/icon/favicon.png') }}">
     <link rel="canonical" href="https://zalvice.com" />
     <script src="https://polyfill.io/v3/polyfill.min.js?features=default"></script>
+    
+    <!-- Google Tag Manager -->
+    <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+    new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+    j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+    'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+    })(window,document,'script','dataLayer','GTM-5JBR58P');</script>
+    <!-- End Google Tag Manager -->
 </head>
 
 <body>
