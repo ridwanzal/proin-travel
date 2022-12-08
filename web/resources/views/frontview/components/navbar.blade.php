@@ -12,19 +12,19 @@
                     <a class="nav-link" aria-current="page" href="{{ url('/') }}">Home</a>
                 </li>
                 <li class="nav-item px-md-3">
-                    <a class="nav-link" aria-current="page" href="{{ url('/') }}">Paket Umroh</a>
+                    <a class="nav-link" aria-current="page" href="{{ url('/paket-umroh') }}">Paket Umroh</a>
                 </li>
                 <li class="nav-item px-md-3">
-                    <a class="nav-link" href="{{ url('/') }}">Haji Khusus</a>
+                    <a class="nav-link" href="{{ url('/haji-khusus') }}">Haji Khusus</a>
                 </li>
                 <li class="nav-item px-md-3">
-                    <a class="nav-link" href="{{ url('/') }}">Daftar Agen</a>
+                    <a class="nav-link" href="{{ url('/jadi-agen') }}">Daftar Agen</a>
                 </li>
                 <li class="nav-item px-md-3">
-                    <a class="nav-link" href="{{ url('/') }}">Testimoni</a>
+                    <a class="nav-link" href="{{ url('/#section-info') }}">Testimoni</a>
                 </li>
                 <li class="nav-item px-md-3">
-                    <a class="nav-link" href="{{ url('/') }}">FAQ</a>
+                    <a class="nav-link" href="{{ url('/#section-faq') }}">FAQ</a>
                 </li>
             </ul>
         </div>

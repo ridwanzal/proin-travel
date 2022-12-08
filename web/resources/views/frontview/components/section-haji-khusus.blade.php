@@ -2,11 +2,9 @@
     <div class="container">
         <div class="text-center mb-3 pb-3">
             <h1 class="text__title">
-                Travel agent berpengalaman<br />
-                lebih dari 1 dekade
+                Pendaftaran Haji Khusus<br/>
+(masa tunggu 9-10 tahun)
             </h1>
-            <p class="mb-3 d-block">PROIN Travel Sahabat Terbaik Menuju Baitullah,<br />Aman Dan
-                Terpercaya Untuk Keluarga Anda</p>
         </div>
         <div class="row mb-5 justify-content-center">
             <div class="col col-md-9">
@@ -17,14 +15,17 @@
                     </div>
                     <div class="col col-12 col-lg-6">
                       <p>
-                        PT BPW Proconfo Indah Atau Biasa Dikenal Dengan Merek Dagang Proin Travel Berdiri Sejak Tahun 1999 Dan Resmi Memilik Izin Resmi Dari Kemenag Sebagai Penyelenggara Ibadah Umroh Sejak 05 September 2001 , Dengan Pengalaman Lebih Dari 20 Tahun In Syaa Allah Kami Siap Membantu Kaum Muslimin di Seluruh Indonesia Untuk Menunaikan Ibadah Umroh dan Haji Dengan Rasa Aman, Nyaman dan Terpercaya.
+                        Bismillah berikut Program Haji Khusus PROIN Pendaftar 2020-2021, Selain memiliki Izin Resmi dari Kementerian Agama 
+                        dan berpengalaman PROIN membimbing Rangkaian Ibadah sesuai Tata Cara Nabi Muhammad sebagaimana kita diperintahkan dalam hadits 
+                        “Ambillah dariku manasik-manasik kalian, karena sesungguhnya aku tidak mengetahui, mungkin saja aku tidak berhaji setelah hajiku ini”. 
+                        (HR. Muslim).Semoga Allah azz wa jalla menjadikan kita para Tamu-Nya yang Mabrur
                       </p>
                     </div>
                 </div>
                 <div class="row mb-5 justify-content-center ">   
                     <div class="col col-12 col-lg-6">
                         <h1 class="text__title text-center">
-                            Daftar Agen Gratis
+                            Konsultasi Haji Khusus Gratis
                         </h1>
                     </div>
                 </div>

@@ -17,44 +17,32 @@
                     <div class="col col-12 col-lg-3">
                         <div class="text-left">
                             <i class="image__icon light bi bi-airplane"></i>
-                            <h5 class="text__title">
-                                Terdapat potongan biaya
-                            </h5>
                             <p class="text__title">
-                                Bonus potongan biaya pengurusan paspor senilai 350 ribu
+                                Bonus Senilai 600.000 Hanya Berlaku Hari Ini Saja
                             </p>
                         </div>
                     </div>
                     <div class="col col-12 col-lg-3">
                         <div class="text-left">
                             <i class="image__icon light bi bi-easel"></i>
-                            <h5 class="text__title">
-                                Gratis Kurma Ajwa
-                            </h5>
                             <p class="text__title">
-                                Kurma Ajwa yang dibagikan pada saaat tiba di Jakarat, senilai 200 ribu
+                                Quota Cepat Sekali Terisi Karena Semua Cabang dan Semua Agen Kami Juga Ikut Menjual
                             </p>
                         </div>
                     </div>
                     <div class="col col-12 col-lg-3">
                         <div class="text-left">
                             <i class="image__icon light bi bi-briefcase"></i>
-                            <h5 class="text__title">
-                                Gratis pengurusan dokumen
-                            </h5>
                             <p class="text__title">
-                                Potongan biaya transport pengurusan dokumen senilai 50 ribu
+                                Merasakan Umroh Dengan Pelayanan Terbaik
                             </p>
                         </div>
                     </div>
                     <div class="col col-12 col-lg-3">
                         <div class="text-left">
                             <i class="image__icon light bi bi-gift"></i>
-                            <h5 class="text__title">
-                                Gratis pengurusan dokumen
-                            </h5>
                             <p class="text__title">
-                                Potongan biaya transport pengurusan dokumen senilai 50 ribu
+                                Hilang Kesempatan Untuk Merasakan Pengalaman Sholat di Atas Pesawat
                             </p>
                         </div>
                     </div>
