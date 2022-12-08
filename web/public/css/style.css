@@ -11811,6 +11811,9 @@ p, label, span, ul, li, small {
     padding-bottom: 32px;
   }
 }
+.section__samecolor.top {
+  padding-top: 140px !important;
+}
 .section__main {
   padding-top: 72px;
   border-top: none;
