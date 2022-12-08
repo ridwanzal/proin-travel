@@ -11724,10 +11724,15 @@ small {
   color: #2E5B43 !important;
 }
 
-.list-group-item {
+t .list-group-item {
   font-size: 14px;
   padding-top: 8px;
   padding-bottom: 8px;
+}
+
+.accordion-button:not(.collapsed) {
+  color: #444 !important;
+  background: #fff !important;
 }
 
 .swiper-pagination-bullet {
@@ -11800,6 +11805,9 @@ p, label, span, ul, li, small {
     padding-bottom: 32px;
   }
 }
+.section__productrange.top {
+  padding-top: 140px !important;
+}
 .section__samecolor {
   border-top: none;
   padding-top: 72px;
@@ -11824,6 +11832,9 @@ p, label, span, ul, li, small {
     padding-top: 32px;
     padding-bottom: 32px;
   }
+}
+.section__main.top {
+  padding-top: 140px !important;
 }
 
 .footer__infolist {

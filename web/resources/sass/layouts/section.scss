@@ -8,6 +8,10 @@
          padding-top:32px;
          padding-bottom: 32px;
       }
+
+      &.top {
+         padding-top: 140px !important;
+      }
    }
 
    &__samecolor{
@@ -33,6 +37,10 @@
       @media #{$media-not-desktop} {  
          padding-top:32px;
          padding-bottom: 32px;
+      }
+
+      &.top {
+         padding-top: 140px !important;
       }
    }
 }
