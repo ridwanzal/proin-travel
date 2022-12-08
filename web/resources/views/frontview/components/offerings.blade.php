@@ -27,11 +27,15 @@
                                 <li><i class="bi bi-check-circle-fill me-2" style="color:#086E2E; font-size:16px;"></i>Hotel Bintang 5</li>
                                 <li><i class="bi bi-check-circle-fill me-2" style="color:#086E2E; font-size:16px;"></i>Tiket Pesawat</li>
                                 <li><i class="bi bi-check-circle-fill me-2" style="color:#086E2E; font-size:16px;"></i>Tiket Wisata</li>
+                                <li><i class="bi bi-check-circle-fill me-2" style="color:#086E2E; font-size:16px;"></i>Makan 3x sehari</li>
                               </ul>
                             </div>
-                            <div class="text-center">
+                            <div class="text-center mb-4">
                               <h5 style="text-decoration: line-through;" class="text-danger">22.500.000</h5>
                               <h2>25.000.000</h2>
+                            </div>
+                            <div class="text-center">
+                              <a target="_self" href="http://127.0.0.1:8000/products" class="btn btn-warning">See all products</a>
                             </div>
                         </div>
                     </div>
@@ -50,11 +54,15 @@
                                 <li><i class="bi bi-check-circle-fill me-2" style="color:#086E2E; font-size:16px;"></i>Hotel Bintang 5</li>
                                 <li><i class="bi bi-check-circle-fill me-2" style="color:#086E2E; font-size:16px;"></i>Tiket Pesawat</li>
                                 <li><i class="bi bi-check-circle-fill me-2" style="color:#086E2E; font-size:16px;"></i>Tiket Wisata</li>
+                                <li><i class="bi bi-check-circle-fill me-2" style="color:#086E2E; font-size:16px;"></i>Makan 3x sehari</li>
                               </ul>
                             </div>
-                            <div class="text-center">
+                            <div class="text-center mb-4">
                               <h5 style="text-decoration: line-through;" class="text-danger">22.500.000</h5>
                               <h2>25.000.000</h2>
+                            </div>
+                            <div class="text-center">
+                              <a target="_self" href="http://127.0.0.1:8000/products" class="btn btn-warning">See all products</a>
                             </div>
                         </div>
                     </div>
@@ -73,11 +81,15 @@
                                 <li><i class="bi bi-check-circle-fill me-2" style="color:#086E2E; font-size:16px;"></i>Hotel Bintang 5</li>
                                 <li><i class="bi bi-check-circle-fill me-2" style="color:#086E2E; font-size:16px;"></i>Tiket Pesawat</li>
                                 <li><i class="bi bi-check-circle-fill me-2" style="color:#086E2E; font-size:16px;"></i>Tiket Wisata</li>
+                                <li><i class="bi bi-check-circle-fill me-2" style="color:#086E2E; font-size:16px;"></i>Makan 3x sehari</li>
                               </ul>
                             </div>
-                            <div class="text-center">
+                            <div class="text-center mb-4">
                               <h5 style="text-decoration: line-through;" class="text-danger">22.500.000</h5>
                               <h2>25.000.000</h2>
+                            </div>
+                            <div class="text-center">
+                              <a target="_self" href="http://127.0.0.1:8000/products" class="btn btn-warning">See all products</a>
                             </div>
                         </div>
                     </div>
