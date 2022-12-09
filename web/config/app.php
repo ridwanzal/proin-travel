@@ -53,8 +53,15 @@ return [
     */
 
     'url' => env('APP_URL', 'http://localhost'),
-
     'asset_url' => env('ASSET_URL', null),
+    'cust_wilayah' => env('CUST_WILAYAH', null),
+    'cust_phone' => env('CUST_PHONE', null),
+    'cust_fb' => env('CUST_FB', null),
+    'cust_ig' => env('CUST_IG', null),
+    'cust_linkedin' => env('CUST_LINKEDIN', null),
+    'cust_yt' => env('CUST_YT', null),
+    'cust_address' => env('CUST_ADDRESS', null),
+    'cust_telephone' => env('CUST_TELEPHONE', null),
 
     /*
     |--------------------------------------------------------------------------

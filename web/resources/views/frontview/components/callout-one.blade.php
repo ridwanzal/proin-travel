@@ -5,7 +5,7 @@
                 <div class="text-center">
                     <h4 class="text-white mb-4 text__medium-headline">Umroh dengan bimbingan dan ajaran<br />
                         sesuai sunnah Nabi Muhammad Salallahu alaihi’ wasallam</h4>
-                    <a href="{{ url('#section-info') }}" class="btn btn-success">Informasi Selengkapnya</a>
+                    <a href="https://wa.me/{{ env('CUST_PHONE') }}" class="btn btn-success">Informasi Lengkap</a>
                 </div>
             </div>
         </div>

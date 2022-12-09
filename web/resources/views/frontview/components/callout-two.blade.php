@@ -5,7 +5,7 @@
                 <div class="text-center">
                     <h4 class="text-white mb-4 text__medium-headline">Raih kesempatan umroh gratis<br /> dan uang tunai
                         jutaan rupiah</h4>
-                    <a href="{{ url('/jadi-agen') }}" class="btn btn-warning">Informasi Selengkapnya</a>
+                    <a href="{{ url('/jadi-agen') }}" class="btn btn-warning">Informasi Lengkap</a>
                 </div>
             </div>
         </div>
