@@ -22,7 +22,7 @@ Route::get('/', [FrontviewController::class, 'index']);
 Route::get('/haji-khusus', [FrontviewController::class, 'hajiKhusus']);
 Route::get('/jadi-agen', [FrontviewController::class, 'jadiAgen']);
 Route::get('/paket-umroh', [FrontviewController::class, 'paketUmroh']);
-
+Route::get('/paket-umroh-detail', [FrontviewController::class, 'paketUmrohDetail']);
 Route::post('/ContactUsForm', [ContactUsFormController::class, 'ContactUsForm'])->name('contact.store');
 
 

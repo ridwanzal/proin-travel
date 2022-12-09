@@ -9,7 +9,7 @@ PROIN Travel
         </div>
         <div class="row mb-5 justify-content-center">
             <div class="col col-12 col-lg-4 mb-4">
-                <div class="card p-4 rounded-3 js-mh">
+                <div class="card p-4 rounded-3 js-mh mb-3">
                     <div class="card-body">
                         <div class="card-title text__title text-center mb-4">
                             <img width="25"  class="lazyload mb-5 mt-2" data-src="{{ asset('images/icon/hotel.svg') }}" alt=""/>

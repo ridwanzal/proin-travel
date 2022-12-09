@@ -1,5 +1,5 @@
-<section class="section__productrange animate__animated animate__fadeInUp" style="background:#fff;">
-  <div class="container">
+<section class="section__productrange top" style="background:#fff;">
+  <div class="container animate__animated animate__fadeIn">
       <div class="row mb-5">
           <div class="col col-12 col-lg-12">
               <div class="text-center">
@@ -35,7 +35,7 @@
                               <h2>25.000.000</h2>
                             </div>
                             <div class="text-center">
-                              <a target="_self" href="{{url('/paket-umroh')}}" class="btn btn-warning">See all products</a>
+                              <a target="_self" href="{{url('/paket-umroh-detail')}}" class="btn btn-warning">See all products</a>
                             </div>
                         </div>
                     </div>
@@ -62,7 +62,7 @@
                               <h2>25.000.000</h2>
                             </div>
                             <div class="text-center">
-                              <a target="_self" href="{{url('/paket-umroh')}}"  class="btn btn-warning">See all products</a>
+                              <a target="_self" href="{{url('/paket-umroh-detail')}}" class="btn btn-warning">See all products</a>
                             </div>
                         </div>
                     </div>
@@ -89,7 +89,7 @@
                               <h2>25.000.000</h2>
                             </div>
                             <div class="text-center">
-                              <a target="_self" href="{{url('/paket-umroh')}}" class="btn btn-warning">See all products</a>
+                              <a target="_self" href="{{url('/paket-umroh-detail')}}" class="btn btn-warning">See all products</a>
                             </div>
                         </div>
                     </div>
