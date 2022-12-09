@@ -2,9 +2,10 @@
     <div class="container">
         <div class="text-center mb-3 pb-3">
             <h1 class="" style="color: #FF8111;">
-                Proin travel Cocok Untuk….
+                PROIN Travel Cocok<br /> Untuk Anda
+                yang Ingin
             </h1>
-            <p class="text-white mb-3 d-block">Mendapatkan pelayanan terbaik<br/>
+            <p class="text-white mb-3 d-block">Mendapatkan pelayanan terbaik<br />
                 tanpa ada masalah</p>
         </div>
         <div class="row mb-5 justify-content-center">
@@ -12,9 +13,10 @@
                 <div class="card p-4 rounded-3 js-mh">
                     <div class="card-body">
                         <div class="card-title text__title text-center mb-4">
-                            <img width="25"  class="lazyload mb-5 mt-2" data-src="{{ asset('images/icon/hotel.svg') }}" alt=""/>
+                            <img width="25" class="lazyload mb-5 mt-2"
+                                data-src="{{ asset('images/icon/hotel.svg') }}" alt="" />
                             <h5>
-                              Jarak Hotel Dekat
+                                Jarak Hotel Dekat
                             </h5>
                         </div>
                         <div class="text-left">
@@ -31,7 +33,8 @@
                 <div class="card p-4 rounded-3 js-mh">
                     <div class="card-body">
                         <div class="card-title text__title text-center mb-4">
-                            <img width="50"  class="lazyload mb-5 mt-2" data-src="{{ asset('images/icon/plane.svg') }}" alt=""/>
+                            <img width="50" class="lazyload mb-5 mt-2"
+                                data-src="{{ asset('images/icon/plane.svg') }}" alt="" />
                             <h5>
                                 Pesawat Tanpa Transit
                             </h5>
@@ -50,7 +53,8 @@
                 <div class="card p-4 rounded-3 js-mh">
                     <div class="card-body">
                         <div class="card-title text__title text-center mb-4">
-                            <img width="45"  class="lazyload mb-5 mt-2" data-src="{{ asset('images/icon/islam.svg') }}" alt=""/>
+                            <img width="45" class="lazyload mb-5 mt-2"
+                                data-src="{{ asset('images/icon/islam.svg') }}" alt="" />
                             <h5>
                                 Bimbingan Ibadah Sesuai Ahlussunah Waljamaah
                             </h5>
