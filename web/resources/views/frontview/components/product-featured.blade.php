@@ -5,9 +5,6 @@
                 Dokumentasi Perjalanan<br />
                 Umroh bersama PROIN
             </h1>
-            <p class="mb-3 d-block">Lihat review jujur mereka setelah menggunakan jasa<br /> Travel Perjalanan
-                Umroh
-                PROIN</p>
         </div>
         <div class="row mb-5">
             <div class="col col-12 col-lg-4 mb-4">
@@ -30,7 +27,7 @@
             </div>
         </div>
         <div class="text-center">
-            <a target="_self" href="{{ url('/products') }}" class="btn btn-warning">See all products</a>
+            <a target="_self" href="{{ url('/products') }}" class="btn btn-warning">Lihat Semua Dokumentasi</a>
         </div>
     </div>
 </section>

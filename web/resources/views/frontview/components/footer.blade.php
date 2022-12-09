@@ -2,12 +2,43 @@
     <div class="container">
         <div class="row">
             <div class="col col-12 col-lg-6">
-                <a class="navbar-brand mb-5 d-block" href="#"><img class="lazyload"
-                        data-src="{{ asset('images/icon/proin-logo.png') }}" style="width:50%;"></a>
-                <p class="text-white" style="font-size: 14px;">
-                    Dapatkan layanan perjalanan ibadah umroh dan haji<br /> sesuai Sunnah dengan memilih Proin
-                    Travel<br /> sebagai
-                    agen perjalanan ibadah Anda.
+
+
+                @if (env('CUST_WILAYAH') == 'jakarta')
+                    <a class="navbar-brand" href="{{ url('/') }}"><img class="lazyload" height="50"
+                            data-src="{{ asset('images/icon/proin-logo.png') }}"></a>
+                @elseif (env('CUST_WILAYAH') == 'tangerang')
+                    <a class="navbar-brand" href="{{ url('/') }}"><img class="lazyload" height="50"
+                            data-src="{{ asset('images/icon/proin-tangerang.png') }}"></a>
+                @elseif (env('CUST_WILAYAH') == 'bogor')
+                    <a class="navbar-brand" href="{{ url('/') }}"><img class="lazyload" height="50"
+                            data-src="{{ asset('images/icon/proin-bogor.png') }}"></a>
+                @elseif (env('CUST_WILAYAH') == 'cilegon')
+                    <a class="navbar-brand" href="{{ url('/') }}"><img class="lazyload" height="50"
+                            data-src="{{ asset('images/icon/proin-cilegon.png') }}"></a>
+                @elseif (env('CUST_WILAYAH') == 'cibubur')
+                    <a class="navbar-brand" href="{{ url('/') }}"><img class="lazyload" height="50"
+                            data-src="{{ asset('images/icon/proin-cibubur.png') }}"></a>
+                @elseif (env('CUST_WILAYAH') == 'depok')
+                    <a class="navbar-brand" href="{{ url('/') }}"><img class="lazyload" height="50"
+                            data-src="{{ asset('images/icon/proin-depok.png') }}"></a>
+                @elseif (env('CUST_WILAYAH') == 'pondokgede')
+                    <a class="navbar-brand" href="{{ url('/') }}"><img class="lazyload" height="50"
+                            data-src="{{ asset('images/icon/proin-pondokgede.png') }}"></a>
+                @else
+                    <a class="navbar-brand" href="{{ url('/') }}"><img class="lazyload" height="50"
+                            data-src="{{ asset('images/icon/proin-logo.png') }}"></a>
+                @endif
+
+
+                <p class="text-white mt-5" style="font-size: 14px;">
+                    @if (env('CUST_ADDRESS') != '')
+                        {{ env('CUST_ADDRESS') }}
+                    @else
+                        Dapatkan layanan perjalanan ibadah umroh dan haji<br /> sesuai Sunnah dengan memilih Proin
+                        Travel<br /> sebagai
+                        agen perjalanan ibadah Anda.
+                    @endif
                 </p>
                 <p style="font-size: 14px;" class="text-white">Jawa Barat, Indonesia</p>
             </div>
@@ -33,14 +64,17 @@
                 <form>
                     <h5 class="mb-4 text-white">SOCIALS</h5>
                     <div class="d-flex" style="">
-                        <a target="_blank" href="#"><i class="text-white bi-facebook me-md-4 me-3" role="img"
-                                aria-label="GitHub"></i></a>
-                        <a target="_blank" href="#"><i class="text-white bi-instagram me-md-4  me-3"
-                                role="img" aria-label="GitHub"></i></a>
-                        <a target="_blank" href="#"><i class="text-white bi-linkedin me-md-4  me-3" role="img"
-                                aria-label="GitHub"></i></a>
-                        <a target="_blank" href="#"><i class="text-white bi-youtube me-md-4  me-3" role="img"
-                                aria-label="GitHub"></i></a>
+                        @if (env('CUST_FB') != '')
+                            <a target="_blank" href="{{ env('CUST_FB') }}"><i
+                                    class="text-white bi-facebook me-md-4 me-3" role="img"
+                                    aria-label="Facebook"></i></a>
+                        @endif
+
+                        @if (env('CUST_IG') != '')
+                            <a target="_blank" ef="{{ env('CUST_IG') }}"><i
+                                    class="text-white bi-instagram me-md-4  me-3" role="img"
+                                    aria-label="Instagram"></i></a>
+                        @endif
                     </div>
                     <a></a>
                 </form>

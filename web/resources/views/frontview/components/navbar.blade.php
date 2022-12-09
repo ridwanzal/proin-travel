@@ -1,7 +1,34 @@
 <nav class="navbar navbar-expand-lg text-dark fixed-top navbar-light" style="background-color:#FFF;">
     <div class="container">
-        <a class="navbar-brand" href="{{ url('/') }}"><img class="lazyload"
-                data-src="{{ asset('images/icon/proin-logo.png') }}"></a>
+
+
+        @if (env('CUST_WILAYAH') == 'jakarta')
+            <a class="navbar-brand" href="{{ url('/') }}"><img class="lazyload" height="50"
+                    data-src="{{ asset('images/icon/proin-logo.png') }}"></a>
+        @elseif (env('CUST_WILAYAH') == 'tangerang')
+            <a class="navbar-brand" href="{{ url('/') }}"><img class="lazyload" height="50"
+                    data-src="{{ asset('images/icon/proin-tangerang.png') }}"></a>
+        @elseif (env('CUST_WILAYAH') == 'bogor')
+            <a class="navbar-brand" href="{{ url('/') }}"><img class="lazyload" height="50"
+                    data-src="{{ asset('images/icon/proin-bogor.png') }}"></a>
+        @elseif (env('CUST_WILAYAH') == 'cilegon')
+            <a class="navbar-brand" href="{{ url('/') }}"><img class="lazyload" height="50"
+                    data-src="{{ asset('images/icon/proin-cilegon.png') }}"></a>
+        @elseif (env('CUST_WILAYAH') == 'cibubur')
+            <a class="navbar-brand" href="{{ url('/') }}"><img class="lazyload" height="50"
+                    data-src="{{ asset('images/icon/proin-cibubur.png') }}"></a>
+        @elseif (env('CUST_WILAYAH') == 'depok')
+            <a class="navbar-brand" href="{{ url('/') }}"><img class="lazyload" height="50"
+                    data-src="{{ asset('images/icon/proin-depok.png') }}"></a>
+        @elseif (env('CUST_WILAYAH') == 'pondokgede')
+            <a class="navbar-brand" href="{{ url('/') }}"><img class="lazyload" height="50"
+                    data-src="{{ asset('images/icon/proin-pondokgede.png') }}"></a>
+        @else
+            <a class="navbar-brand" href="{{ url('/') }}"><img class="lazyload" height="50"
+                    data-src="{{ asset('images/icon/proin-logo.png') }}"></a>
+        @endif
+
+
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
             aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
