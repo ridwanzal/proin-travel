@@ -62,7 +62,7 @@
 
             <div class="col col-12 col-lg-3 mb-3">
                 <form>
-                    <h5 class="mb-4 text-white">SOCIALS</h5>
+                    <h5 class="text-white d-none">SOCIALS</h5>
                     <div class="d-flex" style="">
                         @if (env('CUST_FB') != '')
                             <a target="_blank" href="{{ env('CUST_FB') }}"><i
