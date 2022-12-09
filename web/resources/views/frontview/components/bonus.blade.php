@@ -17,7 +17,7 @@
                         <div class="text-center">
                             <i class="image__icon bi bi-currency-dollar"></i>
                             <h5 class="text-white">
-                                Terdapat potongan biaya
+                                Potongan biaya pembuatan paspor
                             </h5>
                             <p class="text-white">
                                 Potongan Biaya Pembuatan Paspor Senilai 350.000
@@ -39,10 +39,10 @@
                         <div class="text-center">
                             <i class="image__icon bi bi-card-checklist"></i>
                             <h5 class="text-white">
-                                Gratis pengurusan dokumen
+                                Subsidi uang transport
                             </h5>
                             <p class="text-white text-center">
-                                Biaya Transportasi Pengurusan Dokumeni Senilai 50.000
+                                Biaya Transportasi Pengurusan Dokumen Senilai 50.000
                             </p>
                         </div>
                     </div>
