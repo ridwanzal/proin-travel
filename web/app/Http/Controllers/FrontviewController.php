@@ -25,4 +25,9 @@ class FrontviewController extends Controller
    {
       return view('frontview/pages.paket-umroh');
    }
+
+   public function paketUmrohDetail()
+   {
+      return view('frontview/pages.detail.paket-umroh-detail');
+   }
 }

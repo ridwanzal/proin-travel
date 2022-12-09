@@ -14,7 +14,7 @@
           <div class="col col-12 col-lg-12">
               <div class="row">
                   <div class="col col-12 col-lg-4">
-                    <div class="card p-4 rounded-3 js-mh">
+                    <div class="card p-4 rounded-3 js-mh mb-3">
                         <div class="card-body">
                             <div class="card-title text__title text-center mb-4">
                                 <h3>
@@ -35,13 +35,13 @@
                               <h2>25.000.000</h2>
                             </div>
                             <div class="text-center">
-                              <a target="_self" href="http://127.0.0.1:8000/products" class="btn btn-warning">See all products</a>
+                              <a target="_self" href="{{url('/paket-umroh')}}" class="btn btn-warning">See all products</a>
                             </div>
                         </div>
                     </div>
                   </div>
                   <div class="col col-12 col-lg-4">
-                    <div class="card p-4 rounded-3 js-mh">
+                    <div class="card p-4 rounded-3 js-mh mb-3">
                         <div class="card-body">
                             <div class="card-title text__title text-center mb-4">
                                 <h3>
@@ -62,13 +62,13 @@
                               <h2>25.000.000</h2>
                             </div>
                             <div class="text-center">
-                              <a target="_self" href="http://127.0.0.1:8000/products" class="btn btn-warning">See all products</a>
+                              <a target="_self" href="{{url('/paket-umroh')}}"  class="btn btn-warning">See all products</a>
                             </div>
                         </div>
                     </div>
                   </div>
                   <div class="col col-12 col-lg-4">
-                    <div class="card p-4 rounded-3 js-mh">
+                    <div class="card p-4 rounded-3 js-mh mb-3">
                         <div class="card-body">
                             <div class="card-title text__title text-center mb-4">
                                 <h3>
@@ -89,7 +89,7 @@
                               <h2>25.000.000</h2>
                             </div>
                             <div class="text-center">
-                              <a target="_self" href="http://127.0.0.1:8000/products" class="btn btn-warning">See all products</a>
+                              <a target="_self" href="{{url('/paket-umroh')}}" class="btn btn-warning">See all products</a>
                             </div>
                         </div>
                     </div>

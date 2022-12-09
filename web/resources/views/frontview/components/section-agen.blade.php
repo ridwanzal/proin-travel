@@ -1,11 +1,11 @@
 <section class="section__samecolor top" style="background-color:#fff;">
-    <div class="container">
+    <div class="container animate__animated animate__fadeIn animate__delay-0s">
         <div class="text-center mb-3 pb-3">
-            <h1 class="text__title">
+            <h1 class="text__title animate__animated animate__fadeInUp">
                 Travel agent berpengalaman<br />
                 lebih dari 1 dekade
             </h1>
-            <p class="mb-3 d-block">PROIN Travel Sahabat Terbaik Menuju Baitullah,<br />Aman Dan
+            <p class="mb-3 d-block animate__animated animate__fadeInUp animate__delay-1s">PROIN Travel Sahabat Terbaik Menuju Baitullah,<br />Aman Dan
                 Terpercaya Untuk Keluarga Anda</p>
         </div>
         <div class="row mb-5 justify-content-center">

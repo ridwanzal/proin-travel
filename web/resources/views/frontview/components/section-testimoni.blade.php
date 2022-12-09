@@ -13,7 +13,7 @@
                       <div class="swiper-slide">
                           <div class="card mb-3 rounded-3">
                               <div class="row g-0">
-                                  <div class="col-md-4">
+                                  <div class="col col-12 col-md-4">
                                       <img data-src="{{ asset('images/testimoni/2.jpg') }}" alt=""
                                           class="img-fluid rounded-start lazyload" alt="...">
                                   </div>

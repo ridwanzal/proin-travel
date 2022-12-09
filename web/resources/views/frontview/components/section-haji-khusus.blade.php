@@ -1,7 +1,7 @@
 <section class="section__samecolor top" style="background-color:#fff;">
-    <div class="container">
+    <div class="container animate__animated animate__fadeIn animate__delay-0s">
         <div class="text-center mb-3 pb-3">
-            <h1 class="text__title">
+            <h1 class="text__title animate__animated animate__fadeInUp">
                 Pendaftaran Haji Khusus<br/>
 (masa tunggu 9-10 tahun)
             </h1>

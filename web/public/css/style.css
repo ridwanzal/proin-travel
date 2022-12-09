@@ -11785,6 +11785,9 @@ t .list-group-item {
 .text__small-headline {
   line-height: 1.7;
 }
+.text__paket p {
+  margin-bottom: 4px;
+}
 
 p, label, span, ul, li, small {
   color: #666666;
@@ -11886,6 +11889,9 @@ p, label, span, ul, li, small {
 }
 .text__small-headline {
   line-height: 1.7;
+}
+.text__paket p {
+  margin-bottom: 4px;
 }
 
 p, label, span, ul, li, small {
