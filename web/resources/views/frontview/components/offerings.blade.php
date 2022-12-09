@@ -35,7 +35,7 @@
                               <h2>25.000.000</h2>
                             </div>
                             <div class="text-center">
-                              <a target="_self" href="{{url('/paket-umroh')}}" class="btn btn-warning">See all products</a>
+                              <a target="_self" href="{{url('/paket-umroh')}}"   class="btn btn-warning">See all products</a>
                             </div>
                         </div>
                     </div>
