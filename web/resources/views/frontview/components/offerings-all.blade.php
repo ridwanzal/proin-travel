@@ -18,7 +18,7 @@
                             <div class="card-body">
                                 <div class="card-title text__title text-center mb-4">
                                     <h3>
-                                        Umroh Juni 2023
+                                        Umroh April<br /> 2023
                                     </h3>
                                     <hr />
                                 </div>
@@ -35,12 +35,11 @@
                                     </ul>
                                 </div>
                                 <div class="text-center mb-4">
-                                    <h5 style="text-decoration: line-through;" class="text-danger">22.500.000</h5>
-                                    <h2>25.000.000</h2>
+                                    <h2>44.250.000</h2>
                                 </div>
                                 <div class="text-center">
-                                    <a target="_self" href="{{ url('/paket-umroh-detail') }}"
-                                        class="btn btn-warning">Lihat Detail</a>
+                                    <a target="_self" href="{{ url('/paket-umroh') }}" class="btn btn-warning">See all
+                                        products</a>
                                 </div>
                             </div>
                         </div>
@@ -50,7 +49,7 @@
                             <div class="card-body">
                                 <div class="card-title text__title text-center mb-4">
                                     <h3>
-                                        Umroh Mei 2023
+                                        Umroh Maret<br /> 2023
                                     </h3>
                                     <hr />
                                 </div>
@@ -67,12 +66,11 @@
                                     </ul>
                                 </div>
                                 <div class="text-center mb-4">
-                                    <h5 style="text-decoration: line-through;" class="text-danger">22.500.000</h5>
-                                    <h2>25.000.000</h2>
+                                    <h2>33.000.000</h2>
                                 </div>
                                 <div class="text-center">
-                                    <a target="_self" href="{{ url('/paket-umroh-detail') }}"
-                                        class="btn btn-warning">Lihat Detail</a>
+                                    <a target="_self" href="{{ url('/paket-umroh') }}" class="btn btn-warning">See all
+                                        products</a>
                                 </div>
                             </div>
                         </div>
@@ -82,7 +80,7 @@
                             <div class="card-body">
                                 <div class="card-title text__title text-center mb-4">
                                     <h3>
-                                        Umroh April 2023
+                                        Umroh Februari 2023
                                     </h3>
                                     <hr />
                                 </div>
@@ -99,12 +97,11 @@
                                     </ul>
                                 </div>
                                 <div class="text-center mb-4">
-                                    <h5 style="text-decoration: line-through;" class="text-danger">22.500.000</h5>
-                                    <h2>25.000.000</h2>
+                                    <h2>29.500.000</h2>
                                 </div>
                                 <div class="text-center">
-                                    <a target="_self" href="{{ url('/paket-umroh-detail') }}"
-                                        class="btn btn-warning">Lihat Detail</a>
+                                    <a target="_self" href="{{ url('/paket-umroh') }}" class="btn btn-warning">See all
+                                        products</a>
                                 </div>
                             </div>
                         </div>
