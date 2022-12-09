@@ -60,9 +60,9 @@
                         </div>
                         <div class="text-left">
                             <p class="mb-3">
-                                Menggunakan Pesawat Tanpa Transit Agar Jamaah Tidak Merasakan Kelelahan Yang Berlebihan
-                                Selama Perjalanan dari Tanah Air Ke Tanah Suci Sehingga Bisa Tetap Sehat dan Bugar Saat
-                                Beribadah, Jadi Jamaah Tidak Perlu Cemas Karena Kecapean di Perjalanan
+                                Dengan Dibimbing Oleh Ustadz Yang Berpengalaman Yang Merupakan Lulusan Dari Univeritas
+                                Timur Tengah Jamaah Tidak Perlu Khawatir Terkait Bimbingan Ibadah Yang In syaa Allah
+                                semua rangkaian Ibadah yang dilakukan sesuai dengan mazhab Ahlu Sunnah Wal Jamaah
                             </p>
                         </div>
                     </div>

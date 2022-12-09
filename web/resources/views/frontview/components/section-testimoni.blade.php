@@ -15,7 +15,7 @@
         <div class="swiper-wrapper">
             <div class="swiper-slide">
                 <div class="card mb-3 rounded-3">
-                    <div class="row g-0 js-mh">
+                    <div class="row g-0">
                         <div class="col col-12 col-md-4">
                             <img data-src="{{ asset('images/testimoni/2.jpg') }}" alt=""
                                 class="img-fluid rounded-start lazyload" alt="...">
@@ -37,7 +37,7 @@
             </div>
             <div class="swiper-slide">
                 <div class="card mb-3 rounded-3">
-                    <div class="row g-0 js-mh">
+                    <div class="row g-0">
                         <div class="col col-12 col-md-4">
                             <img data-src="{{ asset('images/testimoni/2.jpg') }}" alt=""
                                 class="img-fluid rounded-start lazyload" alt="...">
@@ -50,10 +50,7 @@
                                     di perjalanan kita mendapat tausiah dan penjelasan tentang tadi muthawif,
                                     ada snack dan
                                     minuman di perjalanan, masyaAllah sangat terjamin di tanah harom
-                                    Alhamdulillah. Untuk paket ekonomis
-                                    PROIN, menurut saya ini masyaAllah bagus dan puas (belum tentu travel lain
-                                    memberi fasilitas seperti Proin
-                                    di paket ekonomis)
+                                    Alhamdulillah.
                                 </p>
                                 <p class="card-text"><small class="text-muted fw-bold">Ummu Fia BTR
                                     </small>
@@ -65,7 +62,7 @@
             </div>
             <div class="swiper-slide">
                 <div class="card mb-3 rounded-3">
-                    <div class="row g-0 js-mh">
+                    <div class="row g-0">
                         <div class="col col-12 col-md-4">
                             <img data-src="{{ asset('images/testimoni/2.jpg') }}" alt=""
                                 class="img-fluid rounded-start lazyload" alt="...">

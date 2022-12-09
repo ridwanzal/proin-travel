@@ -25,11 +25,15 @@
                                 <div class="text-left mb-4">
                                     <ul class="no-list ms-4">
                                         <li><i class="bi bi-check-circle-fill me-2"
-                                                style="color:#086E2E; font-size:16px;"></i>Hotel Bintang 5</li>
+                                                style="color:#086E2E; font-size:16px;"></i>Tiket Pesawat PP</li>
                                         <li><i class="bi bi-check-circle-fill me-2"
-                                                style="color:#086E2E; font-size:16px;"></i>Tiket Pesawat</li>
+                                                style="color:#086E2E; font-size:16px;"></i>Visa</li>
                                         <li><i class="bi bi-check-circle-fill me-2"
-                                                style="color:#086E2E; font-size:16px;"></i>Tiket Wisata</li>
+                                                style="color:#086E2E; font-size:16px;"></i>Hotel Bintang 3/4/5</li>
+                                        <li><i class="bi bi-check-circle-fill me-2"
+                                                style="color:#086E2E; font-size:16px;"></i>Bis Model Terbaru</li>
+                                        <li><i class="bi bi-check-circle-fill me-2"
+                                                style="color:#086E2E; font-size:16px;"></i>Koper dan Perlengkapan</li>
                                         <li><i class="bi bi-check-circle-fill me-2"
                                                 style="color:#086E2E; font-size:16px;"></i>Makan 3x sehari</li>
                                     </ul>
@@ -38,8 +42,9 @@
                                     <h2>44.250.000</h2>
                                 </div>
                                 <div class="text-center">
-                                    <a target="_self" href="{{ url('/paket-umroh') }}" class="btn btn-warning">See all
-                                        products</a>
+                                    <a target="_self" href="{{ url('/paket-umroh-detail') }}"
+                                        class="btn btn-warning">Lihat
+                                        Detail</a>
                                 </div>
                             </div>
                         </div>
@@ -56,11 +61,15 @@
                                 <div class="text-left mb-4">
                                     <ul class="no-list ms-4">
                                         <li><i class="bi bi-check-circle-fill me-2"
-                                                style="color:#086E2E; font-size:16px;"></i>Hotel Bintang 5</li>
+                                                style="color:#086E2E; font-size:16px;"></i>Tiket Pesawat PP</li>
                                         <li><i class="bi bi-check-circle-fill me-2"
-                                                style="color:#086E2E; font-size:16px;"></i>Tiket Pesawat</li>
+                                                style="color:#086E2E; font-size:16px;"></i>Visa</li>
                                         <li><i class="bi bi-check-circle-fill me-2"
-                                                style="color:#086E2E; font-size:16px;"></i>Tiket Wisata</li>
+                                                style="color:#086E2E; font-size:16px;"></i>Hotel Bintang 3/4/5</li>
+                                        <li><i class="bi bi-check-circle-fill me-2"
+                                                style="color:#086E2E; font-size:16px;"></i>Bis Model Terbaru</li>
+                                        <li><i class="bi bi-check-circle-fill me-2"
+                                                style="color:#086E2E; font-size:16px;"></i>Koper dan Perlengkapan</li>
                                         <li><i class="bi bi-check-circle-fill me-2"
                                                 style="color:#086E2E; font-size:16px;"></i>Makan 3x sehari</li>
                                     </ul>
@@ -69,8 +78,9 @@
                                     <h2>33.000.000</h2>
                                 </div>
                                 <div class="text-center">
-                                    <a target="_self" href="{{ url('/paket-umroh') }}" class="btn btn-warning">See all
-                                        products</a>
+                                    <a target="_self" href="{{ url('/paket-umroh-detail') }}"
+                                        class="btn btn-warning">Lihat
+                                        Detail</a>
                                 </div>
                             </div>
                         </div>
@@ -87,11 +97,15 @@
                                 <div class="text-left mb-4">
                                     <ul class="no-list ms-4">
                                         <li><i class="bi bi-check-circle-fill me-2"
-                                                style="color:#086E2E; font-size:16px;"></i>Hotel Bintang 5</li>
+                                                style="color:#086E2E; font-size:16px;"></i>Tiket Pesawat PP</li>
                                         <li><i class="bi bi-check-circle-fill me-2"
-                                                style="color:#086E2E; font-size:16px;"></i>Tiket Pesawat</li>
+                                                style="color:#086E2E; font-size:16px;"></i>Visa</li>
                                         <li><i class="bi bi-check-circle-fill me-2"
-                                                style="color:#086E2E; font-size:16px;"></i>Tiket Wisata</li>
+                                                style="color:#086E2E; font-size:16px;"></i>Hotel Bintang 3/4/5</li>
+                                        <li><i class="bi bi-check-circle-fill me-2"
+                                                style="color:#086E2E; font-size:16px;"></i>Bis Model Terbaru</li>
+                                        <li><i class="bi bi-check-circle-fill me-2"
+                                                style="color:#086E2E; font-size:16px;"></i>Koper dan Perlengkapan</li>
                                         <li><i class="bi bi-check-circle-fill me-2"
                                                 style="color:#086E2E; font-size:16px;"></i>Makan 3x sehari</li>
                                     </ul>
@@ -100,8 +114,9 @@
                                     <h2>29.500.000</h2>
                                 </div>
                                 <div class="text-center">
-                                    <a target="_self" href="{{ url('/paket-umroh') }}" class="btn btn-warning">See all
-                                        products</a>
+                                    <a target="_self" href="{{ url('/paket-umroh-detail') }}"
+                                        class="btn btn-warning">Lihat
+                                        Detail</a>
                                 </div>
                             </div>
                         </div>

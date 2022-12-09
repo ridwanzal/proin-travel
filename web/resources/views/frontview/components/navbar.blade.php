@@ -9,7 +9,7 @@
             <a class="navbar-brand" href="{{ url('/') }}"><img class="lazyload" height="50"
                     data-src="{{ asset('images/icon/proin-tangerang.png') }}"></a>
         @elseif (env('CUST_WILAYAH') == 'bogor')
-            <a class="navbar-brand" href="{{ url('/') }}"><img class="lazyload" height="50"
+            <a class="navbar-brand" href="{{ url('/') }}"><img class="lazylc    oad" height="50"
                     data-src="{{ asset('images/icon/proin-bogor.png') }}"></a>
         @elseif (env('CUST_WILAYAH') == 'cilegon')
             <a class="navbar-brand" href="{{ url('/') }}"><img class="lazyload" height="50"

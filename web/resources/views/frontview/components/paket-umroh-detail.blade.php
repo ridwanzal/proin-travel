@@ -30,7 +30,7 @@
                         <p>
                             🏩 Mekkah : Al Massa Grand/setaraf
                         </p>
-                        <p>
+                        <p class="d-none">
                             💰 Harga : Rp 25.000.000
                         </p>
                     </div>
