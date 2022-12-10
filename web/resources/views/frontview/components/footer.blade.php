@@ -82,7 +82,7 @@
 
         <div class="d-flex justify-content-between py-4 my-4 border-top">
             <p style="font-size:13px;" class="text-white">&copy; Copyright <?php echo date('Y'); ?> PT. BPW Proconfo | No.
-                Reg. : 157 HIMPUH/2010 | Izin PIHK 594/2021
+                Reg. : 157 HIMPUH/2010 | Izin Haji PIHK 594/2021
                 2018 | SK Umroh : U.73.2020 | No. IATA : 15335040 </p>
             <p class="float-right text-white    " style="font-size:13px;">
                 All rights reserved.

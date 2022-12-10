@@ -98,7 +98,9 @@
                     <!-- end exclude -->
 
                     <div class="text-center mt-5">
-                        <a href="https://wa.me/{{ env('CUST_PHONE') }}" class="btn btn-warning">Hubungi kami</a>
+                        <a href="https://wa.me/{{ env('CUST_PHONE') }}" class="btn btn-warning mb-4">Konsultasi
+                            sekarang</a>
+                        <p>Segera hubungi admin kami<br /> untuk informasi selengkapnya</p>
                     </div>
                 </div>
             </div>
