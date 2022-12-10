@@ -25,7 +25,7 @@
                                 <div class="text-left mb-4">
                                     <ul class="no-list ms-4">
                                         <li><i class="bi bi-check-circle-fill me-2"
-                                                style="color:#086E2E; font-size:16px;"></i>Tiket Pesawat PP</li>
+                                                style="color:#086E2E; font-size:16px;"></i>Tiket Pesawat</li>
                                         <li><i class="bi bi-check-circle-fill me-2"
                                                 style="color:#086E2E; font-size:16px;"></i>Visa</li>
                                         <li><i class="bi bi-check-circle-fill me-2"
@@ -61,7 +61,7 @@
                                 <div class="text-left mb-4">
                                     <ul class="no-list ms-4">
                                         <li><i class="bi bi-check-circle-fill me-2"
-                                                style="color:#086E2E; font-size:16px;"></i>Tiket Pesawat PP</li>
+                                                style="color:#086E2E; font-size:16px;"></i>Tiket Pesawat</li>
                                         <li><i class="bi bi-check-circle-fill me-2"
                                                 style="color:#086E2E; font-size:16px;"></i>Visa</li>
                                         <li><i class="bi bi-check-circle-fill me-2"
@@ -97,7 +97,7 @@
                                 <div class="text-left mb-4">
                                     <ul class="no-list ms-4">
                                         <li><i class="bi bi-check-circle-fill me-2"
-                                                style="color:#086E2E; font-size:16px;"></i>Tiket Pesawat PP</li>
+                                                style="color:#086E2E; font-size:16px;"></i>Tiket Pesawat</li>
                                         <li><i class="bi bi-check-circle-fill me-2"
                                                 style="color:#086E2E; font-size:16px;"></i>Visa</li>
                                         <li><i class="bi bi-check-circle-fill me-2"

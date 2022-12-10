@@ -25,11 +25,13 @@
                                 <div class="text-left mb-4">
                                     <ul class="no-list ms-4">
                                         <li><i class="bi bi-check-circle-fill me-2"
-                                                style="color:#086E2E; font-size:16px;"></i>Hotel Bintang 5</li>
-                                        <li><i class="bi bi-check-circle-fill me-2"
                                                 style="color:#086E2E; font-size:16px;"></i>Tiket Pesawat</li>
                                         <li><i class="bi bi-check-circle-fill me-2"
-                                                style="color:#086E2E; font-size:16px;"></i>Tiket Wisata</li>
+                                                style="color:#086E2E; font-size:16px;"></i>Visa</li>
+                                        <li><i class="bi bi-check-circle-fill me-2"
+                                                style="color:#086E2E; font-size:16px;"></i>Hotel Bintang 3/4/5</li>
+                                        <li><i class="bi bi-check-circle-fill me-2"
+                                                style="color:#086E2E; font-size:16px;"></i>Bus Model Terbaru</li>
                                         <li><i class="bi bi-check-circle-fill me-2"
                                                 style="color:#086E2E; font-size:16px;"></i>Makan 3x sehari</li>
                                     </ul>
@@ -57,11 +59,13 @@
                                 <div class="text-left mb-4">
                                     <ul class="no-list ms-4">
                                         <li><i class="bi bi-check-circle-fill me-2"
-                                                style="color:#086E2E; font-size:16px;"></i>Hotel Bintang 5</li>
-                                        <li><i class="bi bi-check-circle-fill me-2"
                                                 style="color:#086E2E; font-size:16px;"></i>Tiket Pesawat</li>
                                         <li><i class="bi bi-check-circle-fill me-2"
-                                                style="color:#086E2E; font-size:16px;"></i>Tiket Wisata</li>
+                                                style="color:#086E2E; font-size:16px;"></i>Visa</li>
+                                        <li><i class="bi bi-check-circle-fill me-2"
+                                                style="color:#086E2E; font-size:16px;"></i>Hotel Bintang 3/4/5</li>
+                                        <li><i class="bi bi-check-circle-fill me-2"
+                                                style="color:#086E2E; font-size:16px;"></i>Bus Model Terbaru</li>
                                         <li><i class="bi bi-check-circle-fill me-2"
                                                 style="color:#086E2E; font-size:16px;"></i>Makan 3x sehari</li>
                                     </ul>
@@ -89,11 +93,13 @@
                                 <div class="text-left mb-4">
                                     <ul class="no-list ms-4">
                                         <li><i class="bi bi-check-circle-fill me-2"
-                                                style="color:#086E2E; font-size:16px;"></i>Hotel Bintang 5</li>
-                                        <li><i class="bi bi-check-circle-fill me-2"
                                                 style="color:#086E2E; font-size:16px;"></i>Tiket Pesawat</li>
                                         <li><i class="bi bi-check-circle-fill me-2"
-                                                style="color:#086E2E; font-size:16px;"></i>Tiket Wisata</li>
+                                                style="color:#086E2E; font-size:16px;"></i>Visa</li>
+                                        <li><i class="bi bi-check-circle-fill me-2"
+                                                style="color:#086E2E; font-size:16px;"></i>Hotel Bintang 3/4/5</li>
+                                        <li><i class="bi bi-check-circle-fill me-2"
+                                                style="color:#086E2E; font-size:16px;"></i>Bus Model Terbaru</li>
                                         <li><i class="bi bi-check-circle-fill me-2"
                                                 style="color:#086E2E; font-size:16px;"></i>Makan 3x sehari</li>
                                     </ul>
