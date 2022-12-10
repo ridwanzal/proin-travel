@@ -5,9 +5,8 @@
                 Umroh Musin Tahun 2023<br />
                 <h3 class="text-dark mb-5" style="text-transform: uppercase;">{{ $month }}</h3>
             </h1>
-            <img height="400px" width="auto" data-src="{{ asset('images/makkah.png') }}" alt=""
-                style="margin: 0 auto;"
-                class="d-lg-block d-none lazyload animate__animated animate__fadeInUp animate__delay" />
+            <img data-src="{{ asset('images/th-umroh-hrg.jpeg') }}" alt="" style="margin: 0 auto;"
+                class="d-block lazyload animate__animated animate__fadeIn animate__delay image__flyer" />
         </div>
         <div class="row mb-5 justify-content-center">
             <div class="col col-md-6">
@@ -29,10 +28,10 @@
                             Akomodasi Hotel ⭐⭐⭐⭐ & ⭐⭐⭐⭐ & ⭐⭐⭐
                         </p>
                         <p>
-                            🏩 Madinah : Al Hayat Plus/setaraf
+                            🏩 Madinah
                         </p>
                         <p>
-                            🏩 Mekkah : Al Massa Grand/setaraf
+                            🏩 Mekkah
                         </p>
                         <p class="d-block fw-bold">
                             💰 Harga : Rp {{ $price }}

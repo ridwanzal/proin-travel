@@ -5,7 +5,9 @@
                 <div class="text-center">
                     <h4 class="text-white mb-4 text__medium-headline">Umroh dengan bimbingan dan ajaran<br />
                         sesuai sunnah Nabi Muhammad Salallahu alaihi’ wasallam</h4>
-                    <a href="https://wa.me/{{ env('CUST_PHONE') }}" class="btn btn-success">Informasi Lengkap</a>
+                    <a href="https://api.whatsapp.com/send?phone=+{{ env('CUST_PHONE') }}&amp;text=Assalamualaikum Admin, Saya Ingin Tanya-Tanya Paket Umroh Boleh?"
+                        target="_blank" class="btn btn-md btn-success mb-3">Informasi Lengkap</a>
+
                 </div>
             </div>
         </div>
