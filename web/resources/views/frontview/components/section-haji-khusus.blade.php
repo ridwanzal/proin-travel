@@ -3,7 +3,7 @@
         <div class="text-center mb-3 pb-3">
             <h1 class="text__title animate__animated animate__fadeInUp">
                 Pendaftaran Haji Khusus<br />
-                (masa tunggu 9-10 tahun)
+                (masa tunggu 7-8 tahun)
             </h1>
         </div>
         <div class="row mb-5 justify-content-center">
@@ -15,7 +15,7 @@
                     </div>
                     <div class="col col-12 col-lg-6">
                         <p>
-                            Bismillah berikut Program Haji Khusus PROIN Pendaftar 2020-2021, Selain memiliki Izin Resmi
+                            Bismillah berikut Program Haji Khusus PROIN Pendaftar 2020-2022, Selain memiliki Izin Resmi
                             dari Kementerian Agama
                             dan berpengalaman PROIN membimbing Rangkaian Ibadah sesuai Tata Cara Nabi Muhammad
                             sebagaimana kita diperintahkan dalam hadits
