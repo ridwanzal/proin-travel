@@ -26,7 +26,7 @@
                 <img height="100%" class="lazyload" data-src="{{ asset('images/dok/6.jpg') }}" style="width:100%">
             </div>
         </div>
-        <div class="text-center">
+        <div class="text-center d-none">
             <a target="_self" href="{{ url('/products') }}" class="btn btn-warning">Lihat Semua Dokumentasi</a>
         </div>
     </div>

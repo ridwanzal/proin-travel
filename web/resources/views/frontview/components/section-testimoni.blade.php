@@ -17,7 +17,7 @@
                 <div class="card mb-3 rounded-3">
                     <div class="row g-0">
                         <div class="col col-12 col-md-4">
-                            <img data-src="{{ asset('images/testimoni/2.jpg') }}" alt=""
+                            <img data-src="{{ asset('images/dok/4.jpg') }}" alt=""
                                 class="img-fluid rounded-start lazyload" alt="...">
                         </div>
                         <div class="col-md-8">
@@ -39,7 +39,7 @@
                 <div class="card mb-3 rounded-3">
                     <div class="row g-0">
                         <div class="col col-12 col-md-4">
-                            <img data-src="{{ asset('images/testimoni/2.jpg') }}" alt=""
+                            <img data-src="{{ asset('images/dok/3.jpg') }}" alt=""
                                 class="img-fluid rounded-start lazyload" alt="...">
                         </div>
                         <div class="col-md-8">
@@ -64,7 +64,7 @@
                 <div class="card mb-3 rounded-3">
                     <div class="row g-0">
                         <div class="col col-12 col-md-4">
-                            <img data-src="{{ asset('images/testimoni/2.jpg') }}" alt=""
+                            <img data-src="{{ asset('images/testimoni/1.jpg') }}" alt=""
                                 class="img-fluid rounded-start lazyload" alt="...">
                         </div>
                         <div class="col-md-8">
