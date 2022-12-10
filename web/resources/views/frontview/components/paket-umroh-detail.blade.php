@@ -3,9 +3,11 @@
         <div class="text-center mb-3 pb-3">
             <h1 class="text__title animate__animated animate__fadeInUp">
                 Umroh Musin Tahun 2023<br />
-                <h3 class="text-dark mb-5" style="text-transform: uppercase;">{{ $month }}
+                <h3 class="text-dark mb-5" style="text-transform: uppercase;">{{ $month }}</h3>
             </h1>
-            </h1>
+            <img height="400px" width="auto" data-src="{{ asset('images/makkah.png') }}" alt=""
+                style="margin: 0 auto;"
+                class="d-lg-block d-none lazyload animate__animated animate__fadeInUp animate__delay" />
         </div>
         <div class="row mb-5 justify-content-center">
             <div class="col col-md-6">
@@ -24,7 +26,7 @@
                             Kepulangan Jeddah
                         </p>
                         <p>
-                            Akomodasi Hotel ⭐⭐⭐⭐ & ⭐⭐⭐
+                            Akomodasi Hotel ⭐⭐⭐⭐ & ⭐⭐⭐⭐ & ⭐⭐⭐
                         </p>
                         <p>
                             🏩 Madinah : Al Hayat Plus/setaraf
@@ -98,8 +100,7 @@
                     <!-- end exclude -->
 
                     <div class="text-center mt-5">
-                        <a href="https://wa.me/{{ env('CUST_PHONE') }}" class="btn btn-warning mb-4">Konsultasi
-                            sekarang</a>
+                        @include('frontview/components/cta')
                         <p>Segera hubungi admin kami<br /> untuk informasi selengkapnya</p>
                     </div>
                 </div>
