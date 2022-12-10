@@ -12064,6 +12064,14 @@ p, label, span, ul, li, small {
   background: #DEEDE0 !important;
   color: #2E5B43 !important;
 }
+.image__flyer {
+  max-width: 500px;
+}
+@media (max-width: 991px) {
+  .image__flyer {
+    width: 100%;
+  }
+}
 
 .swiper {
   width: 100%;

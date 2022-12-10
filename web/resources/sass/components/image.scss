@@ -23,4 +23,11 @@
             color: #2E5B43 !important;
         }
     }
+
+    &__flyer {
+        max-width: 500px;
+        @media #{$media-not-desktop} {  
+            width: 100%;
+        }
+    }
 }

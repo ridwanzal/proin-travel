@@ -10,7 +10,7 @@
             <div class="col col-md-9">
                 <div class="row mb-5">
                     <div class="col col-12 col-lg-6">
-                        <img data-src="{{ asset('images/testimoni/2.jpg') }}" alt=""
+                        <img data-src="{{ asset('images/th-haji.jpg') }}" alt=""
                             class="img-fluid rounded-start lazyload" alt="..." width="95%">
                     </div>
                     <div class="col col-12 col-lg-6">
