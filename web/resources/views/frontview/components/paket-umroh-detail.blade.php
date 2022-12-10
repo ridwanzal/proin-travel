@@ -35,6 +35,10 @@
                         </p>
                         <p class="d-block fw-bold">
                             💰 Harga : Rp {{ $price }}
+                            @if (str_contains(url()->current(), 'maret'))
+                                &<br /> 💰 Harga : Rp 32.000.000
+                                &<br /> 💰 Harga : Rp 34.500.000 &<br /> 💰 Harga : Rp 38.000.000
+                            @endif
                         </p>
                     </div>
 

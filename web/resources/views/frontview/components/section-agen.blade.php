@@ -18,11 +18,32 @@
                     </div>
                     <div class="col col-12 col-lg-6">
                         <p>
-                            PT BPW Proconfo Indah Atau Biasa Dikenal Dengan Merek Dagang Proin Travel Berdiri Sejak
-                            Tahun 1999 Dan Resmi Memilik Izin Resmi Dari Kemenag Sebagai Penyelenggara Ibadah Umroh
-                            Sejak 05 September 2001 , Dengan Pengalaman Lebih Dari 20 Tahun In Syaa Allah Kami Siap
-                            Membantu Kaum Muslimin di Seluruh Indonesia Untuk Menunaikan Ibadah Umroh dan Haji Dengan
-                            Rasa Aman, Nyaman dan Terpercaya.
+                        <ul>
+                            <li>
+                                Pendaftaran agent gratis tanpa dipungut biaya
+                            </li>
+                            <li>
+                                Berkesempatan berangkat umroh gratis
+                            </li>
+                            <li>
+                                Uang tunai juataan rupiah
+                            </li>
+                            <li>
+                                Konten harian untuk posting di Sosial Media
+                            </li>
+                            <li>
+                                Product Knowledge
+                            </li>
+                            <li>
+                                Ilmu Digital Marketing
+                            </li>
+                            <li>
+                                Ilmu Public Speaking
+                            </li>
+                            <li>
+                                Dan hadiah menarik lainnya
+                            </li>
+                        </ul>
                         </p>
                     </div>
                 </div>
