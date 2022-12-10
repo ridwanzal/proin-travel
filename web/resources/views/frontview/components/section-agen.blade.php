@@ -1,5 +1,5 @@
 <section class="section__samecolor top" style="background-color:#fff;">
-    <div class="container animate__animated animate__fadeIn animate__delay-0s">
+    <div class="container">
         <div class="text-center mb-3 pb-3">
             <h1 class="text__title animate__animated animate__fadeInUp">
                 Travel agent berpengalaman<br />
