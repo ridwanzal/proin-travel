@@ -7,7 +7,7 @@
             </h1>
             <img height="400px" width="auto" data-src="{{ asset('images/makkah.png') }}" alt=""
                 style="margin: 0 auto;"
-                class="d-lg-block d-none lazyload animate__animated animate__fadeInUp animate__delay" />
+                class="d-lg-block d-none lazyload animate__animated animate__fadeIn animate__delay" />
         </div>
         <div class="row mb-5 justify-content-center">
             <div class="col col-md-6">
