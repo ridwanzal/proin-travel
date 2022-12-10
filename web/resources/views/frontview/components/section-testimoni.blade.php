@@ -1,4 +1,4 @@
-<section class="section__main animate__animated animate__fadeInUp" style="background:#000;" id="section-info">
+<section class="section__main" style="background:#000;" id="section-info">
     <div class="container">
         <div class="row">
             <div class="col col-12 col-lg-12 text-center">

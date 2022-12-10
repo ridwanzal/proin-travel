@@ -1,4 +1,4 @@
-<section class="section__productrange animate__animated animate__fadeInUp" style="background:#EDF6EE;">
+<section class="section__productrange" style="background:#EDF6EE;">
     <div class="container">
         <div class="row mb-5">
             <div class="col col-12 col-lg-12">

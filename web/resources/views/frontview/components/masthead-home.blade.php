@@ -1,7 +1,4 @@
 <section class="masthead__wrapper text-dark masthead">
-    {{-- <div class="masthead__background">
-        <img src="{{ asset('images/bg.jpeg') }}" alt="" />
-    </div> --}}
     <div class="container">
         <div class="row mt-5">
             <div class="col col-12 col-lg-6">
