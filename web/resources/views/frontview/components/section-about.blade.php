@@ -16,7 +16,7 @@
                             class="img-fluid rounded-start lazyload mb-4" alt="..." width="100%">
                         <p class="text__title fw-bold">
                             Izin Umroh PPIU U.73/2020<br />
-                            Izin PIHK 594/2021
+                            Izin Haji PIHK 594/2021
                         </p>
                     </div>
                     <div class="col col-12 col-lg-6">
