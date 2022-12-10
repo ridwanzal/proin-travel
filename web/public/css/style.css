@@ -11739,6 +11739,12 @@ t .list-group-item {
   background: #eee !important;
 }
 
+@media (max-width: 991px) {
+  .card-text {
+    font-size: 14px;
+  }
+}
+
 .bt {
   padding: 8px 16px;
 }

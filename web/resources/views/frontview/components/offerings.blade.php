@@ -38,7 +38,7 @@
                                     <h2>44.250.000</h2>
                                 </div>
                                 <div class="text-center">
-                                    <a target="_self" href="{{ url('/paket-umroh-detail') }}"
+                                    <a target="_self" href="{{ url('/paket-umroh/detail/april') }}"
                                         class="btn btn-warning">Lihat
                                         Detail</a>
                                 </div>
@@ -70,7 +70,7 @@
                                     <h2>33.000.000</h2>
                                 </div>
                                 <div class="text-center">
-                                    <a target="_self" href="{{ url('/paket-umroh-detail') }}"
+                                    <a target="_self" href="{{ url('/paket-umroh/detail/maret') }}"
                                         class="btn btn-warning">Lihat
                                         Detail</a>
                                 </div>
@@ -102,7 +102,7 @@
                                     <h2>29.500.000</h2>
                                 </div>
                                 <div class="text-center">
-                                    <a target="_self" href="{{ url('/paket-umroh-detail') }}"
+                                    <a target="_self" href="{{ url('/paket-umroh/detail/februari') }}"
                                         class="btn btn-warning">Lihat
                                         Detail</a>
                                 </div>

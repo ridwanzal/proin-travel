@@ -31,7 +31,7 @@
                 @endif
 
 
-                <p class="text-white mt-5" style="font-size: 14px;">
+                <p class="text-white mt-5 mb-4" style="font-size: 14px;">
                     @if (env('CUST_ADDRESS') != '')
                         {{ env('CUST_ADDRESS') }}
                     @else

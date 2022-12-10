@@ -154,3 +154,9 @@ t
 .swiper-pagination-bullet {
   background: #eee !important;
 }
+
+.card-text {
+  @media #{$media-not-desktop} { 
+    font-size: 14px;
+  }
+}

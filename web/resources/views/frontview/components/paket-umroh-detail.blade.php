@@ -2,7 +2,9 @@
     <div class="container animate__animated animate__fadeIn animate__delay-0s">
         <div class="text-center mb-3 pb-3">
             <h1 class="text__title animate__animated animate__fadeInUp">
-                Umroh Musin Tahun 2023
+                Umroh Musin Tahun 2023<br />
+                <h3 class="text-dark mb-5" style="text-transform: uppercase;">{{ $month }}
+            </h1>
             </h1>
         </div>
         <div class="row mb-5 justify-content-center">
@@ -30,8 +32,8 @@
                         <p>
                             🏩 Mekkah : Al Massa Grand/setaraf
                         </p>
-                        <p class="d-none">
-                            💰 Harga : Rp 25.000.000
+                        <p class="d-block fw-bold">
+                            💰 Harga : Rp {{ $price }}
                         </p>
                     </div>
 
@@ -94,6 +96,10 @@
                         </ul>
                     </div>
                     <!-- end exclude -->
+
+                    <div class="text-center mt-5">
+                        <a href="https://wa.me/{{ env('CUST_PHONE') }}" class="btn btn-warning">Hubungi kami</a>
+                    </div>
                 </div>
             </div>
         </div>
