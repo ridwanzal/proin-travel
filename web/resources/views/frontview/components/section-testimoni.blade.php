@@ -15,8 +15,8 @@
         <div class="swiper-wrapper">
             <div class="swiper-slide">
                 <div class="card mb-3 rounded-3">
-                    <div class="row g-0">
-                        <div class="col col-12 col-md-4">
+                    <div class="row g-0 js-mh">
+                        <div class="col col-12 col-md-3">
                             <img data-src="{{ asset('images/dok/4.jpg') }}" alt=""
                                 class="img-fluid rounded-start lazyload" alt="...">
                         </div>
@@ -37,8 +37,8 @@
             </div>
             <div class="swiper-slide">
                 <div class="card mb-3 rounded-3">
-                    <div class="row g-0">
-                        <div class="col col-12 col-md-4">
+                    <div class="row g-0  js-mh">
+                        <div class="col col-12 col-md-3">
                             <img data-src="{{ asset('images/dok/3.jpg') }}" alt=""
                                 class="img-fluid rounded-start lazyload" alt="...">
                         </div>
@@ -62,9 +62,9 @@
             </div>
             <div class="swiper-slide">
                 <div class="card mb-3 rounded-3">
-                    <div class="row g-0">
-                        <div class="col col-12 col-md-4">
-                            <img data-src="{{ asset('images/testimoni/1.jpg') }}" alt=""
+                    <div class="row g-0  js-mh">
+                        <div class="col col-12 col-md-3">
+                            <img data-src="{{ asset('images/testimoni/2.jpg') }}" alt=""
                                 class="img-fluid rounded-start lazyload" alt="...">
                         </div>
                         <div class="col-md-8">
@@ -83,5 +83,12 @@
             </div>
         </div>
     </div>
+    <div class="container">
+        <div class="row">
+            <div class="col col-12 mt-2">
+                <iframe width="100%" height="600" src="https://www.youtube.com/embed/ZS1YSi6BIEo?autoplay=0&mute=0">
+                </iframe>
+            </div>
+        </div>
     </div>
 </section>
