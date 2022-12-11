@@ -84,10 +84,16 @@
         </div>
     </div>
     <div class="container">
-        <div class="row">
-            <div class="col col-12 mt-2">
-                <iframe width="100%" height="600" src="https://www.youtube.com/embed/ZS1YSi6BIEo?autoplay=0&mute=0">
+        <div class="row mt-4">
+            <div class="col col-6 mt-2">
+                <iframe width="100%" height="400" src="https://www.youtube.com/embed/mgZiJy3hdAM?autoplay=0&mute=0">
                 </iframe>
+            </div>
+            <div class="col col-6 mt-2">
+                <video width="100%" height="420" controls>
+                    <source src="{{ asset('video/video.mp4') }}" type="video/mp4">
+                    Your browser does not support the video tag.
+                </video>
             </div>
         </div>
     </div>
