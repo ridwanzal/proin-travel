@@ -59,7 +59,8 @@
                     </div>
                 </div>
                 <div class="text-center mt-4">
-                    <a class="btn btn-warning" href="">Hubungi kami</a>
+                    <a href="https://api.whatsapp.com/send?phone=+{{ env('CUST_PHONE') }}&amp;text=Assalamualaikum Admin, Saya Ingin Tanya-Tanya Haji Khusus nya Boleh?"
+                        target="_blank" class="btn btn-md btn-warning mb-3">Hubungi Kami</a>
                 </div>
             </div>
         </div>
