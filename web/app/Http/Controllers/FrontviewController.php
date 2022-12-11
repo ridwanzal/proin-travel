@@ -18,7 +18,7 @@ class FrontviewController extends Controller
       if ($source == 'facebook') {
          $message = "Assalamualaikum admin, saya dari iklan facebook mau tanya-tanya paket umroh nya bisa?";
       } else if ($source == 'google') {
-         $message = "Assalamualaikum admin, saya dari iklan facebook mau tanya-tanya paket umroh nya bisa?";
+         $message = "Assalamualaikum admin, saya dari iklan google mau tanya-tanya paket umroh nya bisa?";
       } else {
          $message = "Assalamualaikum Admin, Saya Ingin Tanya-Tanya Paket Umroh Boleh?";
       }
