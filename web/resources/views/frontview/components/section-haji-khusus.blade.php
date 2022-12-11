@@ -2,8 +2,7 @@
     <div class="container">
         <div class="text-center mb-3 pb-3">
             <h1 class="text__title animate__animated animate__fadeInUp">
-                Pendaftaran Haji Khusus<br />
-                (masa tunggu 7-8 tahun)
+                Pendaftaran Haji Khusus
             </h1>
         </div>
         <div class="row mb-5 justify-content-center">
