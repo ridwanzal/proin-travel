@@ -6,9 +6,24 @@ use Illuminate\Http\Request;
 
 class FrontviewController extends Controller
 {
-   public function index()
+   // public function index()
+   // {
+   //    return view('frontview/pages.home');
+   // }
+
+   public function index(Request $request)
    {
-      return view('frontview/pages.home');
+      $source = $request->query('source');
+      $message = '';
+      if ($source == 'facebook') {
+         $message = "Assalamualaikum admin, saya dari iklan facebook mau tanya-tanya paket umroh nya bisa?";
+      } else if ($source == 'google') {
+         $message = "Assalamualaikum admin, saya dari iklan facebook mau tanya-tanya paket umroh nya bisa?";
+      } else {
+         $message = "Assalamualaikum Admin, Saya Ingin Tanya-Tanya Paket Umroh Boleh?";
+      }
+
+      return view('frontview/pages.home')->with('source', $message);
    }
 
    public function hajiKhusus()
