@@ -12,7 +12,7 @@
             <div class="col col-md-9">
                 <div class="row">
                     <div class="col col-12 col-lg-6">
-                        <img data-src="{{ asset('images/proincard.png') }}" alt=""
+                        <img data-src="{{ asset('images/proincard.jpg') }}" alt=""
                             class="img-fluid rounded-start lazyload mb-4" alt="..." width="100%">
                         <p class="text__title fw-bold">
                             Izin Umroh PPIU U.73/2020<br />
