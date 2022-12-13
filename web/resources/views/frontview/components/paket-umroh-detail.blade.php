@@ -83,7 +83,6 @@
                     <!-- end include -->
 
                     <!-- exclude -->
-
                     <div class="text__paket text-left mb-3">
                         <p class="fw-bold">
                             Harga paket tidak termasuk :
