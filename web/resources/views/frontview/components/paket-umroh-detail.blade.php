@@ -73,7 +73,7 @@
                                 ✅ Airport Handling
                             </li>
                             <li>
-                                ✅ Air Zamzam 5 Liter (bila di izinkan)
+                                ✅ Air Zamzam 5 Liter
                             </li>
                             <li>
                                 ✅ Perlengkapan Umroh

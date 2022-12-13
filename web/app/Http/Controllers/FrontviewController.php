@@ -11,7 +11,7 @@ class FrontviewController extends Controller
    //    return view('frontview/pages.home');
    // }
 
-   public function index(Request $request)
+   public function index(Request $request)   
    {
       $source = $request->query('source');
       $message = '';
