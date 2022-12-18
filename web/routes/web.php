@@ -30,3 +30,6 @@ Route::get('/paket-umroh/detail/{param1}', [FrontviewController::class, 'paketUm
 
 Route::get('/auth/login', [BackviewController::class, 'index']);
 Route::get('/login', [BackviewController::class, 'index']);
+Route::post('/authenticate', [BackviewController::class, 'authenticate'])->name('login.action');
+Route::get('/logout', [BackviewController::class, 'logout'])->name('logout.action');
+Route::get('/dashboard', [BackviewController::class, 'dashboard']);

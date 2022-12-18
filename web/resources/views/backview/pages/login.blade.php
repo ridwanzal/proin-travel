@@ -6,10 +6,7 @@
             <div class="row justify-content-center">
                 <div class="col col-12">
                     <form>
-                        <div class="text-center mt-5">
-                            <img class="mb-5 lazyload" data-src="{{ asset('images/logo.svg') }}" alt="" width="150">
-                        </div>
-                        <h1 class="h3 mb-3 fw-normal">Please sign in</h1>
+                        <h1 class="h3 mb-3 mt-5 fw-bold">Please sign in</h1>
 
                         <div class="form-floating">
                             <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com">
