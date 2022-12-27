@@ -40,6 +40,15 @@ class BackviewController extends Controller
         }
     }
 
+    public function kontak(){
+        if (Auth::check()) {
+            $kontakAll = DB::select('select * from contacts order BY id DESC limit 1');
+            return view('backview/pages.kontak')->with(compact('kontakAll'));
+        } else {
+            return view('backview/pages.login');
+        }
+    }
+
     public function logout(Request $request)
     {
         Auth::logout();

@@ -24,3 +24,57 @@ PROIN Travel
 - PRICE_OKT=
 - PRICE_NOV=
 - PRICE_DES=
+
+
+# Table Format
+
+## Paket (paket)
+- id
+- image (text)
+- title (str 256)
+- content (text)
+- price
+- cta 
+- cta_info
+
+## Dokumentasi (dokumentasi)
+- id
+- image
+
+## Kontak (kontak)
+- id
+- alamat
+- nomor_telepon
+- facebook
+- instagram
+- linkedin
+- youtube 
+
+## Testimoni (testimoni)
+- id
+- image 
+- content
+- subtitle
+- type (1,2) 1.image 2.video
+
+## Bonus
+### Bonus list (bonus_list)
+- id
+- image
+- title
+- description
+
+### Bonus higlight (bonus_highlight)
+- id
+- content
+
+## FAQ (faq)
+- id
+- title
+- description
+
+## General CTA
+- id 
+- cta_text
+- cta_link
+- cta_type (1. kontak, 2.agen, 3. haji-khusus)
