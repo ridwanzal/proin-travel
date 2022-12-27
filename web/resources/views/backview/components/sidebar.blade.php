@@ -45,7 +45,7 @@
                         </a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="{{ url('backview/testimonis') }}">
+                        <a class="nav-link" href="{{ url('backview/testimoni') }}">
                             <i class="dashi bi bi-back me-2"></i>
                             Testimoni
                         </a>
@@ -54,6 +54,12 @@
                         <a class="nav-link" href="{{ url('backview/bonus') }}">
                             <i class="dashi bi bi-map me-2"></i>
                             Bonus Eksklusif
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="{{ url('backview/faq') }}">
+                            <i class="dashi bi bi-bag-plus-fill  me-2"></i>
+                            FAQ
                         </a>
                     </li>
                     <li class="nav-item">

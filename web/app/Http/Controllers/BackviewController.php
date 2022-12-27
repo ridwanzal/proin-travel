@@ -49,6 +49,51 @@ class BackviewController extends Controller
         }
     }
 
+    public function bonus(){
+        if (Auth::check()) {
+            $bonusList = DB::select('select * from contacts order BY id DESC limit 1');
+            return view('backview/pages.bonus')->with(compact('bonusList'));
+        } else {
+            return view('backview/pages.login');
+        }
+    }
+
+    public function faq(){
+        if (Auth::check()) {
+            $faqAll = DB::select('select * from contacts order BY id DESC limit 1');
+            return view('backview/pages.faq')->with(compact('faqAll'));
+        } else {
+            return view('backview/pages.login');
+        }
+    }
+
+    public function paket(){
+        if (Auth::check()) {
+            $paketAll = DB::select('select * from contacts order BY id DESC limit 1');
+            return view('backview/pages.faq')->with(compact('paketAll'));
+        } else {
+            return view('backview/pages.login');
+        }
+    }
+
+    public function testimoni(){
+        if (Auth::check()) {
+            $testimoni = DB::select('select * from contacts order BY id DESC limit 1');
+            return view('backview/pages.faq')->with(compact('testimoni'));
+        } else {
+            return view('backview/pages.login');
+        }
+    }
+
+    public function dokumentasi(){
+        if (Auth::check()) {
+            $dokumentasi = DB::select('select * from dokumentasi order BY id DESC limit 1');
+            return view('backview/pages.dokumentasi')->with(compact('dokumentasi'));
+        } else {
+            return view('backview/pages.login');
+        }
+    }
+
     public function logout(Request $request)
     {
         Auth::logout();
