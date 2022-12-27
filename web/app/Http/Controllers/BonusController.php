@@ -29,13 +29,11 @@ class BonusController extends Controller
 
     public function storeHightlight(Request $request)
     {
-
         DB::table($this->table_bonus_highlight)->insert([
             'content' => $request->content,
             'created_at' => new \DateTime(),
             'updated_at' => new \DateTime()
         ]);
-
         return redirect('/kontak')->with('kontak-success', 'Submission success');;
     }
 }

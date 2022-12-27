@@ -28,9 +28,16 @@ Route::get('/paket-umroh/detail/{param1}', [FrontviewController::class, 'paketUm
 
 // Backview
 Route::get('/backview/kontak', [BackviewController::class, 'kontak']);
+Route::get('/backview/paket', [BackviewController::class, 'paket']);
+Route::get('/backview/bonus', [BackviewController::class, 'bonus']);
+Route::get('/backview/testimoni', [BackviewController::class, 'testimoni']);
+Route::get('/backview/faq', [BackviewController::class, 'faq']);
+Route::get('/backview/dokumentasi', [BackviewController::class, 'dokumentasi']);
+
 
 Route::get('/auth/login', [BackviewController::class, 'index']);
 Route::get('/login', [BackviewController::class, 'index']);
 Route::post('/authenticate', [BackviewController::class, 'authenticate'])->name('login.action');
 Route::get('/logout', [BackviewController::class, 'logout'])->name('logout.action');
 Route::get('/dashboard', [BackviewController::class, 'dashboard']);
+
