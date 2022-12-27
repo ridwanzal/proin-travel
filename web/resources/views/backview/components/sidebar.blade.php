@@ -3,6 +3,9 @@
         <nav id="sidebarMenu" class="col-md-3 col-lg-2 d-md-block bg-light sidebar collapse">
             <div class="position-sticky pt-1">
                 <ul class="nav flex-column">
+                    <li class="nav-item mt-2 mb-2">
+                        <a class="nav-link text-white btn btn-sm btn-success" href="{{ url('/')}}" target="_blank">Ke Landing Page</a>
+                    </li>
                     <li class="nav-item d-none">
                         <div class="accordion accordion-flush" id="accordionFlushExample">
                             <div class="accordion-item">
@@ -30,33 +33,33 @@
                         </div>
                     </li>
                     <li class="nav-item d-block">
-                        <a class="nav-link" href="{{ url('backview/sources') }}">
+                        <a class="nav-link" href="{{ url('backview/paket') }}">
                             <i class="dashi bi bi-basket me-2"></i>
-                            Our Sources
+                            Paket
                         </a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="{{ url('backview/facilities') }}">
+                        <a class="nav-link" href="{{ url('backview/dokumentasi') }}">
                             <i class="dashi bi bi-building me-2"></i>
-                            Facilities
+                            Dokumentasi
                         </a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="{{ url('backview/story') }}">
+                        <a class="nav-link" href="{{ url('backview/testimonis') }}">
                             <i class="dashi bi bi-back me-2"></i>
-                            Story
+                            Testimoni
                         </a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="{{ url('backview/certification') }}">
+                        <a class="nav-link" href="{{ url('backview/bonus') }}">
                             <i class="dashi bi bi-map me-2"></i>
-                            Certifications
+                            Bonus Eksklusif
                         </a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="{{ url('backview/contact') }}">
+                        <a class="nav-link" href="{{ url('backview/kontak') }}">
                             <i class="dashi bi bi-files me-2"></i>
-                            Contact Reports
+                            Kontak
                         </a>
                     </li>
                 </ul>

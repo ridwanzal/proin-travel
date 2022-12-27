@@ -27,6 +27,7 @@ Route::get('/paket-umroh/detail/{param1}', [FrontviewController::class, 'paketUm
 
 
 // Backview
+Route::get('/backview/kontak', [BackviewController::class, 'kontak']);
 
 Route::get('/auth/login', [BackviewController::class, 'index']);
 Route::get('/login', [BackviewController::class, 'index']);
