@@ -40,7 +40,8 @@ class BackviewController extends Controller
         }
     }
 
-    public function kontak(){
+    public function kontak()
+    {
         if (Auth::check()) {
             $kontakAll = DB::select('select * from contacts order BY id DESC limit 1');
             return view('backview/pages.kontak')->with(compact('kontakAll'));
@@ -49,7 +50,8 @@ class BackviewController extends Controller
         }
     }
 
-    public function bonus(){
+    public function bonus()
+    {
         if (Auth::check()) {
             $bonusList = DB::select('select * from contacts order BY id DESC limit 1');
             return view('backview/pages.bonus')->with(compact('bonusList'));
@@ -58,7 +60,8 @@ class BackviewController extends Controller
         }
     }
 
-    public function faq(){
+    public function faq()
+    {
         if (Auth::check()) {
             $faqAll = DB::select('select * from contacts order BY id DESC limit 1');
             return view('backview/pages.faq')->with(compact('faqAll'));
@@ -67,25 +70,28 @@ class BackviewController extends Controller
         }
     }
 
-    public function paket(){
+    public function paket()
+    {
         if (Auth::check()) {
             $paketAll = DB::select('select * from contacts order BY id DESC limit 1');
-            return view('backview/pages.faq')->with(compact('paketAll'));
+            return view('backview/pages.paket')->with(compact('paketAll'));
         } else {
             return view('backview/pages.login');
         }
     }
 
-    public function testimoni(){
+    public function testimoni()
+    {
         if (Auth::check()) {
             $testimoni = DB::select('select * from contacts order BY id DESC limit 1');
-            return view('backview/pages.faq')->with(compact('testimoni'));
+            return view('backview/pages.testimoni')->with(compact('testimoni'));
         } else {
             return view('backview/pages.login');
         }
     }
 
-    public function dokumentasi(){
+    public function dokumentasi()
+    {
         if (Auth::check()) {
             $dokumentasi = DB::select('select * from dokumentasi order BY id DESC limit 1');
             return view('backview/pages.dokumentasi')->with(compact('dokumentasi'));

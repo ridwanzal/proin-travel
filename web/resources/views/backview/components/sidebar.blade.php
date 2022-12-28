@@ -4,7 +4,8 @@
             <div class="position-sticky pt-1">
                 <ul class="nav flex-column">
                     <li class="nav-item mt-2 mb-2">
-                        <a class="nav-link text-white btn btn-sm btn-success" href="{{ url('/')}}" target="_blank">Ke Landing Page</a>
+                        <a class="nav-link text-white btn btn-sm btn-success" href="{{ url('/') }}" target="_blank">Ke
+                            Landing Page</a>
                     </li>
                     <li class="nav-item d-none">
                         <div class="accordion accordion-flush" id="accordionFlushExample">

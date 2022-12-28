@@ -1,4 +1,4 @@
-<h6 class="h5 mb-2">Paket</h6>
+<h6 class="h5 mb-2">Bonus Highlight</h6>
 <div class="card p-3 mb-5 pb-3">
     @if (Session::has('kontak-success'))
         <div class="alert alert-success alert-dismissible fade show" role="alert">

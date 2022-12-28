@@ -8,21 +8,21 @@ use Illuminate\Support\Facades\DB;
 class ContactController extends Controller
 {
 
-    private $table = 'general_cta';
+    private $table = 'contacts';
 
     public function store(Request $request)
     {
 
         DB::table($this->table)->insert([
-            'nomor_telepon' => $request->nomor_telepon,
-            'facebook' => $request->facebook,
-            'instagram' => $request->instagram,
-            'youtube' => $request->youtube,
-            'address' => $request->address,
+            'alamat' => $request->alamat ?? '-',
+            'nomor_telepon' => $request->nomor_telepon ?? '-',
+            'facebook' => $request->facebook ?? '-',
+            'instagram' => $request->instagram ?? '-',
+            'youtube' => $request->youtube ?? '-',
             'created_at' => new \DateTime(),
             'updated_at' => new \DateTime()
         ]);
 
-        return redirect('/kontak')->with('kontak-success', 'Submission success');;
+        return redirect('/backview/kontak')->with('kontak-success', 'Submission success');;
     }
 }

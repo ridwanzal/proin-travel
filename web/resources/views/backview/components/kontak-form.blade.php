@@ -5,7 +5,7 @@
             <strong>{{ Session::get('kontak-success') }}</strong>
         </div>
     @endif
-    <form method="POST" action="/kontak/store">
+    <form method="POST" action="{{ route('contact.store') }}">
         @csrf
         @if (sizeof($kontakAll) > 0)
             @foreach ($kontakAll as $kon)
@@ -14,35 +14,35 @@
                         <div class="form-group">
                             <label class="form-label">Nomor Telepon<i class="text-danger">*</i></label>
                             <input type="text" class="form-control mb-2" placeholder="" name="nomor_telepon"
-                            value="{{ $kon->email }}">
+                                value="{{ $kon->nomor_telepon }}">
                         </div>
                     </div>
                     <div class="col col-12 col-lg-6">
                         <div class="form-group">
                             <label class="form-label">Facebook<i class="text-danger">*</i></label>
                             <input type="text" class="form-control mb-2" placeholder="" name="facebook"
-                            value="{{ $kon->facebook }}">
+                                value="{{ $kon->facebook }}">
                         </div>
                     </div>
                     <div class="col col-12 col-lg-6">
                         <div class="form-group">
                             <label class="form-label">Instagram<i class="text-danger">*</i></label>
                             <input type="text" class="form-control mb-2" placeholder="" name="instagram"
-                            value="{{ $kon->instagram }}">
+                                value="{{ $kon->instagram }}">
                         </div>
                     </div>
                     <div class="col col-12 col-lg-6">
                         <div class="form-group">
                             <label class="form-label">Youtube<i class="text-danger">*</i></label>
-                            <input type="text" class="form-control mb-2" placeholder="" name="instagram"
-                            value="{{ $kon->youtube }}">
+                            <input type="text" class="form-control mb-2" placeholder="" name="youtube"
+                                value="{{ $kon->youtube }}">
                         </div>
                     </div>
                     <div class="row">
                         <div class="col col-12 col-lg-6">
                             <div class="form-group">
                                 <label class="form-label">Address <i class="text-danger">*</i></label>
-                                <textarea rows="4" name="address" class="form-control mb-2 required"></textarea>
+                                <textarea rows="4" name="alamat" class="form-control mb-2 required">{{ $kon->alamat }}</textarea>
                             </div>
                         </div>
                     </div>
@@ -74,7 +74,7 @@
                 <div class="col col-12 col-lg-6">
                     <div class="form-group">
                         <label class="form-label">Youtube<i class="text-danger">*</i></label>
-                        <input type="text" class="form-control mb-2" placeholder="" name="instagram">
+                        <input type="text" class="form-control mb-2" placeholder="" name="youtube">
                     </div>
                 </div>
             </div>
@@ -82,7 +82,7 @@
                 <div class="col col-12 col-lg-6">
                     <div class="form-group">
                         <label class="form-label">Address <i class="text-danger">*</i></label>
-                        <textarea rows="4" name="address" class="form-control mb-2 required"></textarea>
+                        <textarea rows="4" name="alamat" class="form-control mb-2 required"></textarea>
                     </div>
                 </div>
             </div>
