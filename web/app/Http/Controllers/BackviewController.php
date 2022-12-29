@@ -53,8 +53,11 @@ class BackviewController extends Controller
     public function bonus()
     {
         if (Auth::check()) {
-            $bonusList = DB::select('select * from contacts order BY id DESC limit 1');
-            return view('backview/pages.bonus')->with(compact('bonusList'));
+            $bonusList = DB::select('select * from bonus_list');
+            $bonusHighlight = DB::select('select * from bonus_highlight order BY id DESC limit 1');
+            return view('backview/pages.bonus')
+                ->with(compact('bonusList'))
+                ->with(compact('bonusHighlight'));
         } else {
             return view('backview/pages.login');
         }
@@ -63,8 +66,8 @@ class BackviewController extends Controller
     public function faq()
     {
         if (Auth::check()) {
-            $faqAll = DB::select('select * from contacts order BY id DESC limit 1');
-            return view('backview/pages.faq')->with(compact('faqAll'));
+            $dataFaq = DB::select('SELECT * FROM faq order by id DESC');
+            return view('backview/pages.faq')->with(compact('dataFaq'));
         } else {
             return view('backview/pages.login');
         }

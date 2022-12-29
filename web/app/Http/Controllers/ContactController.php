@@ -17,7 +17,7 @@ class ContactController extends Controller
             'alamat' => $request->alamat ?? '-',
             'nomor_telepon' => $request->nomor_telepon ?? '-',
             'facebook' => $request->facebook ?? '-',
-            'instagram' => $request->instagram ?? '-',  
+            'instagram' => $request->instagram ?? '-',
             'youtube' => $request->youtube ?? '-',
             'created_at' => new \DateTime(),
             'updated_at' => new \DateTime()

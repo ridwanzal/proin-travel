@@ -15,25 +15,36 @@ class BonusController extends Controller
     {
 
         DB::table($this->table_bonus_list)->insert([
-            'nomor_telepon' => $request->nomor_telepon,
-            'facebook' => $request->facebook,
-            'instagram' => $request->instagram,
-            'youtube' => $request->youtube,
-            'address' => $request->address,
-            'created_at' => new \DateTime(),
-            'updated_at' => new \DateTime()
+            'image' => $request->image,
+            'title' => $request->title,
+            'description' => $request->description,
+            'type' => $request->type ?? '1'
         ]);
 
-        return redirect('/kontak')->with('kontak-success', 'Submission success');;
+        return redirect('/backview/bonus')->with('success', 'Submission success');;
     }
 
     public function storeHightlight(Request $request)
     {
         DB::table($this->table_bonus_highlight)->insert([
             'content' => $request->content,
-            'created_at' => new \DateTime(),
-            'updated_at' => new \DateTime()
         ]);
-        return redirect('/kontak')->with('kontak-success', 'Submission success');;
+        return redirect('/backview/bonus')->with('success', 'Submission success');;
+    }
+
+    public function deleteList(Request $request)
+    {
+        $tableId = $request->id;
+        DB::select("DELETE FROM $this->table_bonus_list where id = $tableId");
+        return back()
+            ->with('success', 'You have successfully remove data.');
+    }
+
+    public function deleteHighlight(Request $request)
+    {
+        $tableId = $request->id;
+        DB::select("DELETE FROM $this->table_bonus_highlight where id = $tableId");
+        return back()
+            ->with('success', 'You have successfully remove data.');
     }
 }

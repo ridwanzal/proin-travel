@@ -1,8 +1,10 @@
 <?php
 
 use App\Http\Controllers\BackviewController;
+use App\Http\Controllers\BonusController;
 use App\Http\Controllers\ContactController;
 use App\Http\Controllers\ContactUsFormController;
+use App\Http\Controllers\FaqController;
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\FrontviewController;
 
@@ -42,3 +44,11 @@ Route::get('/logout', [BackviewController::class, 'logout'])->name('logout.actio
 Route::get('/dashboard', [BackviewController::class, 'dashboard']);
 
 Route::post('/kontak/store', [ContactController::class, 'store'])->name('contact.store');
+Route::post('/faq/store', [FaqController::class, 'store'])->name('faq.store');
+Route::post('/faq/delete', [FaqController::class, 'delete'])->name('faq.delete');
+
+
+Route::post('/bonuslist/store', [BonusController::class, 'storeList'])->name('bonuslist.store');
+Route::post('/bonushighlight/store', [BonusController::class, 'storeHightlight'])->name('bonushighlight.store');
+Route::post('/bonuslist/delete', [BonusController::class, 'deleteList'])->name('bonusList.delete');
+Route::post('/bonushighlight/delete', [BonusController::class, 'deleteHighlight'])->name('bonushighlight.delete');

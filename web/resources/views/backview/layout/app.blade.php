@@ -8,11 +8,9 @@
 <meta charset="utf-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<meta name="description"
-    content='Jasa Pembuatan Web Profesional Berkualitas, Jasa buat website,Digital Agency,IT Consultant,Agency'>
+<meta name="description" content='Travel Perjalanan Umroh terbaik'>
 <meta name="author" content='M. Ridwan Zalbina'>
-<meta name="keywords"
-    content='Buat website, Jasa develop web, Jasa Pengembangan Web Profesional, Jasa Bangun Produk Digital, Jasa pembuatan website bisnis, Jasa desain web profesional, Jasa desain web murah, Web Development, Digital Agency, Web Slicing service, Web Development, Web Programming' />
+<meta name="keywords" content='Travel Perjalanan Umroh terbaik' />
 <meta name="format-detection" content="telephone=no" />
 <meta name="contact" content="+6281919992000" />
 <meta name='robots' content='index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1' />
@@ -21,22 +19,22 @@
 <!-- open graph image and summary tags -->
 <meta property="og:locale" content="en_US" />
 <meta property='og:type' content='website' />
-<meta property='og:title' content='Zalvice - Jasa Pembuatan Web Profesional Berkualitas' />
-<meta property='og:description'
-    content='Jasa Pembuatan Web Profesional Berkualitas, Jasa buat website,Digital Agency,IT Consultant,Agency' />
-<meta property="og:url" content="https://zalvice.com/" />
-<meta property="og:image" content="https://zalvice.com/images/logos.svg" />
+<meta property='og:title' content='Proin Tours Travel - Travel Perjalanan Umroh terbaik' />
+<meta property='og:description' content='Travel Perjalanan Umroh terbaik' />
+<meta property="og:url" content="https://prointourstravel.com/" />
+<meta property="og:image" content="https://prointourstravel.com/images/logos.svg" />
 
 <meta name='twitter:card' content='summary' />
-<meta name='twitter:title' content='Zalvice - Jasa Pembuatan Web Profesional Berkualitas' />
-<meta name='twitter:description'
-    content='Jasa Pembuatan Web Profesional Berkualitas, Jasa buat website,Digital Agency,IT Consultant,Agency' />
+<meta name='twitter:title' content='Proin Tours Travel - Travel Perjalanan Umroh terbaik' />
+<meta name='twitter:description' content='Travel Perjalanan Umroh terbaik' />
 <meta name="theme-color" content="#0A7DFF" />
 
 <!-- stylesheet preload async preconnect -->
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
 
 <link rel="preload" href="{{ asset('/css/style.css') }}" as="style" />
 <link rel=" stylesheet" href="{{ asset('/css/style.css') }}" />
@@ -50,7 +48,8 @@
 <link rel="manifest" href="/javascripts/pwa.webmanifest">
 <link rel="shortcut icon" href="{{ asset('images/icon/favicon.png') }}" type="image/x-icon">
 <link rel="apple-touch-icon" href="{{ asset('images/icon/favicon.png') }}">
-<link rel="canonical" href="https://zalvice.com" />
+<link rel="canonical" href="https://prointourstravel.com" />
+<link rel="stylesheet" href="//cdn.datatables.net/1.10.7/css/jquery.dataTables.min.css">
 <script src="https://polyfill.io/v3/polyfill.min.js?features=default"></script>
 
 <body>

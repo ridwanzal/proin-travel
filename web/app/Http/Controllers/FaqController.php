@@ -6,8 +6,8 @@ use Illuminate\Http\Request;
 use Illuminate\Support\Facades\DB;
 
 class FaqController extends Controller
-{   
-    private $table = 'dokumentasi';
+{
+    private $table = 'faq';
 
     public function store(Request $request)
     {
@@ -17,6 +17,17 @@ class FaqController extends Controller
             'description' => $request->description
         ]);
 
-        return redirect('/kontak')->with('kontak-success', 'Submission success');;
+
+        return redirect('/backview/faq')
+            ->with('success', 'Submission success');
+    }
+
+
+    public function delete(Request $request)
+    {
+        $tableId = $request->id;
+        DB::select("DELETE FROM $this->table where id = $tableId");
+        return back()
+            ->with('success', 'You have successfully remove data.');
     }
 }
