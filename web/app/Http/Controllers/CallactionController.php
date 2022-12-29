@@ -18,6 +18,6 @@ class CallactionController extends Controller
             'cta_type' => $request->cta_type,
         ]);
 
-        return redirect('/kontak')->with('kontak-success', 'Submission success');;
+        return redirect('/backview/')->with('kontak-success', 'Submission success');;
     }
 }
