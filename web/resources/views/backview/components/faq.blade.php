@@ -10,33 +10,15 @@
         <div class="row">
             <div class="col col-12 col-lg-6">
                 <div class="form-group">
-                    <label class="form-label">Nomor Telepon<i class="text-danger">*</i></label>
-                    <input type="text" class="form-control mb-2" placeholder="" name="nomor_telepon">
-                </div>
-            </div>
-            <div class="col col-12 col-lg-6">
-                <div class="form-group">
-                    <label class="form-label">Facebook<i class="text-danger">*</i></label>
-                    <input type="text" class="form-control mb-2" placeholder="" name="facebook">
-                </div>
-            </div>
-            <div class="col col-12 col-lg-6">
-                <div class="form-group">
-                    <label class="form-label">Instagram<i class="text-danger">*</i></label>
-                    <input type="text" class="form-control mb-2" placeholder="" name="instagram">
-                </div>
-            </div>
-            <div class="col col-12 col-lg-6">
-                <div class="form-group">
-                    <label class="form-label">Youtube<i class="text-danger">*</i></label>
-                    <input type="text" class="form-control mb-2" placeholder="" name="instagram">
+                    <label class="form-label">Title<i class="text-danger">*</i></label>
+                    <input type="text" class="form-control mb-2" placeholder="" name="title">
                 </div>
             </div>
         </div>
         <div class="row">
             <div class="col col-12 col-lg-6">
                 <div class="form-group">
-                    <label class="form-label">Address <i class="text-danger">*</i></label>
+                    <label class="form-label">Description <i class="text-danger">*</i></label>
                     <textarea rows="4" name="address" class="form-control mb-2 required"></textarea>
                 </div>
             </div>
@@ -45,4 +27,24 @@
             <button class="btn btn-sm btn-warning">Update</button>
         </div>
     </form>
+</div>
+<div class="card p-3 mb-5 pb-3">
+    <div class="row">
+        <div class="col col-12">
+            <table class="table">
+                <thead>
+                    <tr>
+                        <th>Title</th>
+                        <th>Description</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
 </div>
