@@ -56,3 +56,4 @@ Route::post('/bonuslist/delete', [BonusController::class, 'deleteList'])->name('
 Route::post('/bonushighlight/delete', [BonusController::class, 'deleteHighlight'])->name('bonushighlight.delete');
 Route::post('/testimoni/store', [TestiController::class, 'store'])->name('testi.store');
 Route::post('/dokumentasi/store', [DokController::class, 'store'])->name('dokumentasi.store');
+Route::post('/dokumentasi/delete', [DokController::class, 'delete'])->name('dokumentasi.delete');
