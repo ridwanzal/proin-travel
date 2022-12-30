@@ -7,13 +7,10 @@ use Illuminate\Support\Facades\DB;
 
 class DokController extends Controller
 {
-    private $table = 'dokumentasi';
-
-
     public function store(Request $request)
     {
         $request->validate([
-            'image.*' => 'required|max:1000480',
+            'images.*' => 'required|max:1000480',
         ]);
 
         $images = [];
@@ -31,5 +28,13 @@ class DokController extends Controller
         return back()
             ->with('success', 'You have successfully upload image.')
             ->with('images', $images);
+    }
+
+    public function delete(Request $request)
+    {
+        $tableId = $request->id;
+        DB::select("DELETE FROM dokumentasi where id = $tableId");
+        return back()
+            ->with('success', 'You have successfully remove data.');
     }
 }

@@ -22,25 +22,25 @@ function testiType($param)
             <div class="col col-12 col-lg-6">
                 <div class="form-group">
                     <label class="form-label">Image/Thumb<i class="text-danger">*</i></label>
-                    <input type="file" class="form-control mb-2" placeholder="" name="images[]" multiple>
+                    <input type="file" class="form-control mb-2" placeholder="" name="images[]" multiple required>
                 </div>
             </div>
             <div class="col col-12 col-lg-6">
                 <div class="form-group">
                     <label class="form-label">Nama Klien<i class="text-danger">*</i></label>
-                    <input type="text" class="form-control mb-2" placeholder="" name="subtitle">
+                    <input type="text" class="form-control mb-2" placeholder="" name="subtitle" required>
                 </div>
             </div>
             <div class="col col-12 col-lg-6">
                 <div class="form-group">
                     <label class="form-label">Content<i class="text-danger">*</i></label>
-                    <textarea rows="4" name="content" class="form-control mb-2 required"></textarea>
+                    <textarea rows="4" name="content" class="form-control mb-2" required></textarea>
                 </div>
             </div>
             <div class="col col-12 col-lg-6">
                 <div class="form-group">
                     <label class="form-label">Tipe<i class="text-danger">*</i></label>
-                    <select class="form-control" name="type">
+                    <select class="form-control" name="type" required>
                         <option value="1">Image</option>
                         <option value="1">Video</option>
                     </select>

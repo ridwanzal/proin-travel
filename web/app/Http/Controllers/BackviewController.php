@@ -96,7 +96,7 @@ class BackviewController extends Controller
     public function dokumentasi()
     {
         if (Auth::check()) {
-            $dokumentasi = DB::select('select * from dokumentasi order BY id DESC limit 1');
+            $dokumentasi = DB::select('select * from dokumentasi order BY id DESC');
             return view('backview/pages.dokumentasi')->with(compact('dokumentasi'));
         } else {
             return view('backview/pages.login');

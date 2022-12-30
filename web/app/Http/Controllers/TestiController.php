@@ -10,7 +10,7 @@ class TestiController extends Controller
     public function store(Request $request)
     {
         $request->validate([
-            'image.*' => 'required|max:1000480',
+            'images.*' => 'required|max:1000480',
             'content' => 'required',
             'subtitle' => 'required',
             'type' => 'required',
@@ -34,5 +34,13 @@ class TestiController extends Controller
         return back()
             ->with('success', 'You have successfully upload image.')
             ->with('images', $images);
+    }
+
+    public function delete(Request $request)
+    {
+        $tableId = $request->id;
+        DB::select("DELETE FROM dokumentasi where id = $tableId");
+        return back()
+            ->with('success', 'You have successfully remove data.');
     }
 }
