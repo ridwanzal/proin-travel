@@ -8,7 +8,7 @@
                     <div class="col col-12 col-lg-12">
                         <div class="form-group">
                             <label class="form-label">Text/Content Highlight <i class="text-danger">*</i></label>
-                            <textarea rows="4" name="content" class="form-control mb-2 required">{{ $item->content }}</textarea>
+                            <textarea rows="4" name="content" class="form-control mb-2">{{ $item->content }}</textarea>
                         </div>
                     </div>
                 </div>
@@ -18,7 +18,7 @@
                 <div class="col col-12 col-lg-12">
                     <div class="form-group">
                         <label class="form-label">Text/Content Highlight <i class="text-danger">*</i></label>
-                        <textarea rows="4" name="content" class="form-control mb-2 required"></textarea>
+                        <textarea rows="4" name="content" class="form-control mb-2" required></textarea>
                     </div>
                 </div>
             </div>

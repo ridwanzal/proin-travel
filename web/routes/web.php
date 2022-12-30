@@ -4,9 +4,11 @@ use App\Http\Controllers\BackviewController;
 use App\Http\Controllers\BonusController;
 use App\Http\Controllers\ContactController;
 use App\Http\Controllers\ContactUsFormController;
+use App\Http\Controllers\DokController;
 use App\Http\Controllers\FaqController;
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\FrontviewController;
+use App\Http\Controllers\TestiController;
 
 /*
 |--------------------------------------------------------------------------
@@ -52,3 +54,5 @@ Route::post('/bonuslist/store', [BonusController::class, 'storeList'])->name('bo
 Route::post('/bonushighlight/store', [BonusController::class, 'storeHightlight'])->name('bonushighlight.store');
 Route::post('/bonuslist/delete', [BonusController::class, 'deleteList'])->name('bonusList.delete');
 Route::post('/bonushighlight/delete', [BonusController::class, 'deleteHighlight'])->name('bonushighlight.delete');
+Route::post('/testimoni/store', [TestiController::class, 'store'])->name('testi.store');
+Route::post('/dokumentasi/store', [DokController::class, 'store'])->name('dokumentasi.store');

@@ -10,24 +10,24 @@
         <div class="row">
             <div class="col col-12 col-lg-6">
                 <div class="form-group">
-                    <label class="form-label">Boostrap 5 icon tambahkan nama icon, lihat contoh : <a
+                    <label class="form-label">Boostrap 5 icons (tambahkan nama icon), lihat contoh : <a
                             href="https://icons.getbootstrap.com/" target="_blank">lihat referensi</a><i
                             class="text-danger">*</i></label>
                     <input type="text" class="form-control mb-2" placeholder="e.g: circle" name="image"
-                        placeholder="bi-circle">
+                        placeholder="bi-circle" required>
                 </div>
             </div>
             <div class="col col-12 col-lg-6">
                 <div class="form-group">
                     <label class="form-label">Judul<i class="text-danger">*</i></label>
-                    <input type="text" class="form-control mb-2" placeholder="" name="title">
+                    <input type="text" class="form-control mb-2" placeholder="" name="title" required>
                 </div>
             </div>
             <div class="row">
                 <div class="col col-12 col-lg-12">
                     <div class="form-group">
                         <label class="form-label">Deskripsi <i class="text-danger">*</i></label>
-                        <textarea rows="4" name="description" class="form-control mb-2 required"></textarea>
+                        <textarea rows="4" name="description" class="form-control mb-2" required></textarea>
                     </div>
                 </div>
             </div>

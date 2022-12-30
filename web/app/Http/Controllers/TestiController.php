@@ -5,15 +5,15 @@ namespace App\Http\Controllers;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\DB;
 
-class DokController extends Controller
+class TestiController extends Controller
 {
-    private $table = 'dokumentasi';
-
-
     public function store(Request $request)
     {
         $request->validate([
             'image.*' => 'required|max:1000480',
+            'content' => 'required',
+            'subtitle' => 'required',
+            'type' => 'required',
         ]);
 
         $images = [];
@@ -22,8 +22,11 @@ class DokController extends Controller
                 $imageName = time() . rand(1, 99) . '.' . $image->extension();
                 $image->move(public_path('images/uploads'), $imageName);
                 $images[]['name'] = $imageName;
-                DB::table('dokumentasi')->insert([
+                DB::table('testimoni')->insert([
                     'image' => $imageName,
+                    'content' => $request->content,
+                    'subtitle' => $request->subtitle,
+                    'type' => $request->type ?? '1'
                 ]);
             }
         }
