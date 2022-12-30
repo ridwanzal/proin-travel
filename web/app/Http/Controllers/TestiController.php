@@ -7,7 +7,6 @@ use Illuminate\Support\Facades\DB;
 
 class TestiController extends Controller
 {
-    private $table = 'testimoni';
     public function store(Request $request)
     {
         $request->validate([

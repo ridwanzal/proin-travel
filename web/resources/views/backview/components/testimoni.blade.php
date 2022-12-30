@@ -47,47 +47,46 @@ function testiType($param)
                 </div>
             </div>
         </div>
-        <div class="col col-12 col-lg-12">
+        <div class="col col-12 col-lg-12 mt-2">
             <button class="btn btn-sm btn-warning">Update</button>
         </div>
     </form>
-</div>
-<br />
-<table class="table">
-    <thead>
-        <tr>
-            <th>
-                Thumb/Image
-            </th>
-            <th>
-                Judul
-            </th>
-            <th>
-                Deskripsi
-            </th>
-            <th>
-                Tipe
-            </th>
-            <th>
-                Tindakan
-            </th>
-        </tr>
-    </thead>
-    <tbody>
-        @foreach ($testimoni as $item)
+    <table class="table mt-4">
+        <thead>
             <tr>
-                <td>{{ $item->image }}</td>
-                <td>{{ $item->content }}</td>
-                <td>{{ $item->subtitle }}</td>
-                <td>{{ testiType($item->type) }}</td>
-                <td>
-                    <form method="POST" action="{{ url('testimoni/delete') }}">
-                        @csrf
-                        <input type="hidden" name="id" value="{{ $item->id }}" />
-                        <button class="btn btn-sm btn-danger" type="submit">Delete</button>
-                    </form>
-                </td>
+                <th>
+                    Thumb/Image
+                </th>
+                <th>
+                    Judul
+                </th>
+                <th>
+                    Deskripsi
+                </th>
+                <th>
+                    Tipe
+                </th>
+                <th>
+                    Tindakan
+                </th>
             </tr>
-        @endforeach
-    </tbody>
-</table>
+        </thead>
+        <tbody>
+            @foreach ($testimoni as $item)
+                <tr>
+                    <td>{{ $item->image }}</td>
+                    <td>{{ $item->content }}</td>
+                    <td>{{ $item->subtitle }}</td>
+                    <td>{{ testiType($item->type) }}</td>
+                    <td>
+                        <form method="POST" action="{{ url('testimoni/delete') }}">
+                            @csrf
+                            <input type="hidden" name="id" value="{{ $item->id }}" />
+                            <button class="btn btn-sm btn-danger" type="submit">Delete</button>
+                        </form>
+                    </td>
+                </tr>
+            @endforeach
+        </tbody>
+    </table>
+</div>
