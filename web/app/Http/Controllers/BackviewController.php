@@ -86,7 +86,7 @@ class BackviewController extends Controller
     public function testimoni()
     {
         if (Auth::check()) {
-            $testimoni = DB::select('select * from contacts order BY id DESC limit 1');
+            $testimoni = DB::select('select * from testimoni order BY id DESC');
             return view('backview/pages.testimoni')->with(compact('testimoni'));
         } else {
             return view('backview/pages.login');
