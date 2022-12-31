@@ -51,7 +51,7 @@ function testiType($param)
             <button class="btn btn-sm btn-warning">Update</button>
         </div>
     </form>
-    <table class="table mt-4">
+    <table class="table table-bordered mt-4">
         <thead>
             <tr>
                 <th>

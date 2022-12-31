@@ -76,7 +76,7 @@ class BackviewController extends Controller
     public function paket()
     {
         if (Auth::check()) {
-            $paketAll = DB::select('select * from contacts order BY id DESC limit 1');
+            $paketAll = DB::select('select * from paket order BY id DESC');
             return view('backview/pages.paket')->with(compact('paketAll'));
         } else {
             return view('backview/pages.login');
