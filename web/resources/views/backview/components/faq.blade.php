@@ -29,7 +29,7 @@
     </form>
     <div class="row mt-4">
         <div class="col col-12">
-            <table class="table">
+            <table class="table table-bordered">
                 <thead>
                     <tr>
                         <th>Title</th>

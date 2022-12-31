@@ -5,7 +5,7 @@
             <strong>{{ Session::get('kontak-success') }}</strong>
         </div>
     @endif
-    <form method="POST" action="/kontak/store">
+    <form method="POST" action="{{ url('/paket/store') }}" enctype="multipart/form-data">
         @csrf
         <div class="row">
             <div class="col col-12 col-lg-6">
@@ -25,27 +25,21 @@
             </div>
             <div class="col col-12 col-lg-6">
                 <div class="form-group">
-                    <label class="form-label">Harga<i class="text-danger">*</i></label>
-                    <input type="text" class="form-control mb-2" placeholder="" name="price">
-                </div>
-            </div>
-            <div class="col col-12 col-lg-3">
-                <div class="form-group">
                     <label class="form-label">Link CTA<i class="text-danger">*</i></label>
-                    <input type="text" class="form-control mb-2" placeholder="" name="price">
+                    <input type="text" class="form-control mb-2" placeholder="" name="cta">
                 </div>
             </div>
-            <div class="col col-12 col-lg-3">
+            <div class="col col-12 col-lg-6">
                 <div class="form-group">
                     <label class="form-label">Label CTA<i class="text-danger">*</i></label>
-                    <input type="text" class="form-control mb-2" placeholder="" name="price">
+                    <input type="text" class="form-control mb-2" placeholder="" name="cta_info">
                 </div>
             </div>
         </div>
-        <div class="row mt-5">
+        <div class="row mt-3">
             <div class="col col-12 col-lg-12">
                 <div class="form-group">
-                    <label class="form-label">Deskripsi Paket <i class="text-danger">*</i></label>
+                    <label class="form-label">Konten/Deskripsi Detail Paket <i class="text-danger">*</i></label>
                     <textarea id="editor" rows="4" name="content" class="form-control mb-2 required"></textarea>
                 </div>
             </div>
@@ -56,4 +50,42 @@
             </div>
         </div>
     </form>
+    <table class="table table-bordered mt-4">
+        <thead>
+            <tr>
+                <th>
+                    Thumb/Image
+                </th>
+                <th>
+                    Judul Paket
+                </th>
+                <th>
+                    Cta Link
+                </th>
+                <th>
+                    Cta Info
+                </th>
+                <th>
+                    Tindakan Info
+                </th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach ($paketAll as $item)
+                <tr>
+                    <td>{{ $item->image }}</td>
+                    <td>{{ $item->title }}</td>
+                    <td>{{ $item->cta }}</td>
+                    <td>{{ $item->cta_info }}</td>
+                    <td>
+                        <form method="POST" action="{{ url('paket/delete') }}">
+                            @csrf
+                            <input type="hidden" name="id" value="{{ $item->id }}" />
+                            <button class="btn btn-sm btn-danger" type="submit">Delete</button>
+                        </form>
+                    </td>
+                </tr>
+            @endforeach
+        </tbody>
+    </table>
 </div>

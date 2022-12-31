@@ -22,11 +22,14 @@
             <button class="btn btn-sm btn-warning">Update</button>
         </div>
     </form>
-    <table class="table mt-3">
+    <table class="table table-bordered mt-3">
         <thead>
             <tr>
                 <th>
                     Thumb/Image
+                </th>
+                <th>
+                    Tindakan
                 </th>
             </tr>
         </thead>

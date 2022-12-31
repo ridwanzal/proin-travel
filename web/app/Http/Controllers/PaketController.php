@@ -7,21 +7,39 @@ use Illuminate\Support\Facades\DB;
 
 class PaketController extends Controller
 {
-    private $table = 'paket';
-
     public function store(Request $request)
     {
-
-        DB::table($this->table)->insert([
-            'nomor_telepon' => $request->nomor_telepon,
-            'facebook' => $request->facebook,
-            'instagram' => $request->instagram,
-            'youtube' => $request->youtube,
-            'address' => $request->address,
-            'created_at' => new \DateTime(),
-            'updated_at' => new \DateTime()
+        $request->validate([
+            'images.*' => 'required|max:1000480',
         ]);
 
-        return redirect('/kontak')->with('kontak-success', 'Submission success');;
+        $images = [];
+        if ($request->images) {
+            foreach ($request->images as $key => $image) {
+                $imageName = time() . rand(1, 99) . '.' . $image->extension();
+                $image->move(public_path('images/uploads'), $imageName);
+                $images[]['name'] = $imageName;
+                DB::table('paket')->insert([
+                    'image' => $imageName,
+                    'title' => $request->title,
+                    'content' => $request->content,
+                    'price' => $request->price,
+                    'cta' => $request->cta,
+                    'cta_info' => $request->cta_info
+                ]);
+            }
+        }
+
+        return back()
+            ->with('success', 'You have successfully upload image.')
+            ->with('images', $images);
+    }
+
+    public function delete(Request $request)
+    {
+        $tableId = $request->id;
+        DB::select("DELETE FROM paket where id = $tableId");
+        return back()
+            ->with('success', 'You have successfully remove data.');
     }
 }
