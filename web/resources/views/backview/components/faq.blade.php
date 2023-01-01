@@ -43,6 +43,8 @@
                             <td>{{ $item->title }}</td>
                             <td>{{ $item->description }}</td>
                             <td>
+                                <a href="{{ url("/backview/faq/edit/$item->id") }}" class="btn btn-sm btn-success mb-2"
+                                    type="submit">Edit</a>
                                 <form method="POST" action="{{ url('faq/delete') }}">
                                     @csrf
                                     <input type="hidden" name="id" value="{{ $item->id }}" />

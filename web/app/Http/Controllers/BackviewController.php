@@ -63,6 +63,13 @@ class BackviewController extends Controller
         }
     }
 
+    public function bonusedit($id)
+    {
+        $bonusAll =  DB::select("SELECT * FROM bonus_list where id = $id");
+        return view('backview/pages.faqedit')->with(compact('bonusAll'));
+    }
+
+
     public function faq()
     {
         if (Auth::check()) {
@@ -71,6 +78,12 @@ class BackviewController extends Controller
         } else {
             return view('backview/pages.login');
         }
+    }
+
+    public function faqedit($id)
+    {
+        $faqAll =  DB::select("SELECT * FROM faq where id = $id");
+        return view('backview/pages.faqedit')->with(compact('faqAll'));
     }
 
     public function paket()

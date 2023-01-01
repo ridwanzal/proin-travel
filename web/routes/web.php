@@ -49,6 +49,8 @@ Route::post('/kontak/store', [ContactController::class, 'store'])->name('contact
 
 Route::post('/faq/store', [FaqController::class, 'store'])->name('faq.store');
 Route::post('/faq/delete', [FaqController::class, 'delete'])->name('faq.delete');
+Route::get('/backview/faq/edit/{id}', [BackviewController::class, 'faqedit'])->name('faq.faqedit');
+Route::post('/faq/update', [FaqController::class, 'update'])->name('faq.update');
 
 Route::post('/bonuslist/store', [BonusController::class, 'storeList'])->name('bonuslist.store');
 Route::post('/bonushighlight/store', [BonusController::class, 'storeHightlight'])->name('bonushighlight.store');

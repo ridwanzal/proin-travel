@@ -72,7 +72,7 @@ class PaketController extends Controller
         }
 
         return back()
-            ->with('success', 'You have successfully upload image.')
+            ->with('success', 'You have successfully uploaded data.')
             ->with('images', $images);
     }
 
@@ -81,6 +81,6 @@ class PaketController extends Controller
         $tableId = $request->id;
         DB::select("DELETE FROM paket where id = $tableId");
         return back()
-            ->with('success', 'You have successfully remove data.');
+            ->with('success', 'You have successfully removed data.');
     }
 }
