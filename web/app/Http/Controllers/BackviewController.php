@@ -11,7 +11,7 @@ class BackviewController extends Controller
     public function index()
     {
         if (Auth::check()) {
-            return redirect()->intended('/dashboard');
+            return redirect()->intended('/backview/paket');
         } else {
             return view('backview/pages.login');
         }
