@@ -22,9 +22,9 @@ class FrontviewController extends Controller
       $faqAll = DB::select('select * from faq order BY id DESC');
       $contacts = DB::select('select * from contacts order BY id DESC LIMIT 1');
       $documentation = DB::select('select * from dokumentasi order BY id DESC');
-      $bonusList = DB::select('select * from bonus_list order BY id DESC');
+      $bonusList = DB::select('select * from bonus_list order BY id ASC');
       $bonusHighlight = DB::select('select * from bonus_highlight ORDER BY id DESC limit 1');
-      $testimoni = DB::select('select * from testimoni ORDER BY id DESC');
+      $testimoni = DB::select('select * from testimoni ORDER BY id ASC');
       return view('frontview/pages.home')->with('source', $message)
          ->with(compact('faqAll'))
          ->with(compact('contacts'))

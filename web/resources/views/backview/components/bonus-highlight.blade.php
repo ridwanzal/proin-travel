@@ -1,4 +1,4 @@
-<h6 class="h5 mb-2">Bonus Highlight</h6>
+<h6 class="h5 mb-2">Bonus Highlight (Edit as html + preview )</h6>
 <div class="card p-3 mb-5 pb-3">
     <form method="POST" action="{{ route('bonushighlight.store') }}">
         @csrf
@@ -8,7 +8,10 @@
                     <div class="col col-12 col-lg-12">
                         <div class="form-group">
                             <label class="form-label">Text/Content Highlight <i class="text-danger">*</i></label>
-                            <textarea rows="4" name="content" class="form-control mb-2">{{ $item->content }}</textarea>
+                            <textarea rows="4" id="editor" name="content" class="form-control mb-2">{{ $item->content }}</textarea>
+                        </div>
+                        <div style="background: #ccc" class="mt-3 mb-3">
+                            {!! $item->content !!}
                         </div>
                     </div>
                 </div>
@@ -18,7 +21,7 @@
                 <div class="col col-12 col-lg-12">
                     <div class="form-group">
                         <label class="form-label">Text/Content Highlight <i class="text-danger">*</i></label>
-                        <textarea rows="4" name="content" class="form-control mb-2" required></textarea>
+                        <textarea rows="4" id="editor" name="content" class="form-control mb-2" required></textarea>
                     </div>
                 </div>
             </div>
