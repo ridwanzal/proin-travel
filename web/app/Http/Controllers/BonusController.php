@@ -47,4 +47,17 @@ class BonusController extends Controller
         return back()
             ->with('success', 'You have successfully remove data.');
     }
+
+    public function update(Request $request)
+    {
+        $id = $request->id;
+        DB::table('bonus_list')->where('id', $id)
+            ->update([
+                'image' => $request->image,
+                'title' => $request->title,
+                'description' => $request->description,
+            ]);
+        return redirect('/backview/bonus')
+            ->with('success', 'You have successfully updated data');
+    }
 }
