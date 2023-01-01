@@ -83,6 +83,12 @@ class BackviewController extends Controller
         }
     }
 
+    public function paketedit($id)
+    {
+        $paketAll =  DB::select("SELECT * FROM paket where id = $id");
+        return view('backview/pages.paketedit')->with(compact('paketAll'));
+    }
+
     public function testimoni()
     {
         if (Auth::check()) {

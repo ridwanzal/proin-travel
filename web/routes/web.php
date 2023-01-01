@@ -61,5 +61,8 @@ Route::post('/testimoni/delete', [TestiController::class, 'delete'])->name('test
 Route::post('/dokumentasi/store', [DokController::class, 'store'])->name('dokumentasi.store');
 Route::post('/dokumentasi/delete', [DokController::class, 'delete'])->name('dokumentasi.delete');
 
+Route::get('/backview/paket/edit/{id}', [BackviewController::class, 'paketedit'])->name('paket.paketedit');
 Route::post('/paket/store', [PaketController::class, 'store'])->name('paket.store');
+Route::post('/paket/update', [PaketController::class, 'update'])->name('paket.update');
+Route::post('/paket/updateimage', [PaketController::class, 'updateimage'])->name('paket.updateimage');
 Route::post('/paket/delete', [PaketController::class, 'delete'])->name('paket.delete');

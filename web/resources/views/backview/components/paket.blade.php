@@ -80,12 +80,13 @@
                     <td>{{ $item->cta }}</td>
                     <td>{{ $item->cta_info }}</td>
                     <td>
-                        <form method="POST" action="{{ url('paket/delete') }}">
+                        <form class="mb-2" method="POST" action="{{ url('paket/edit') }}">
                             @csrf
                             <input type="hidden" name="id" value="{{ $item->id }}" />
-                            <button class="btn btn-sm btn-danger" type="submit">Delete</button>
+                            <a href="{{ url("/backview/paket/edit/$item->id") }}" class="btn btn-sm btn-success"
+                                type="submit">Edit</a>
                         </form>
-                        <form>
+                        <form class="mb-2" method="POST" action="{{ url('paket/delete') }}">
                             @csrf
                             <input type="hidden" name="id" value="{{ $item->id }}" />
                             <button class="btn btn-sm btn-danger" type="submit">Delete</button>
