@@ -39,7 +39,7 @@ class TestiController extends Controller
     public function delete(Request $request)
     {
         $tableId = $request->id;
-        DB::select("DELETE FROM dokumentasi where id = $tableId");
+        DB::select("DELETE FROM testimoni where id = $tableId");
         return back()
             ->with('success', 'You have successfully remove data.');
     }

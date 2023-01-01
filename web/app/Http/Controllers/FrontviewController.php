@@ -3,10 +3,11 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
+use Illuminate\Support\Facades\DB;
 
 class FrontviewController extends Controller
 {
-   public function index(Request $request)   
+   public function index(Request $request)
    {
       $source = $request->query('source');
       $message = '';
@@ -18,7 +19,21 @@ class FrontviewController extends Controller
          $message = "Assalamualaikum Admin, Saya Ingin Tanya-Tanya Paket Umroh Boleh?";
       }
 
-      return view('frontview/pages.home')->with('source', $message);
+      $faqAll = DB::select('select * from faq order BY id DESC');
+      $contacts = DB::select('select * from contacts order BY id DESC LIMIT 1');
+      $documentation = DB::select('select * from dokumentasi order BY id DESC');
+      $bonusList = DB::select('select * from bonus_list order BY id ASC');
+      $bonusHighlight = DB::select('select * from bonus_highlight ORDER BY id DESC limit 1');
+      $testimoni = DB::select('select * from testimoni ORDER BY id ASC');
+      $paket = DB::select('select * from paket ORDER BY id DESC');
+      return view('frontview/pages.home')->with('source', $message)
+         ->with(compact('faqAll'))
+         ->with(compact('contacts'))
+         ->with(compact('documentation'))
+         ->with(compact('bonusList'))
+         ->with(compact('bonusHighlight'))
+         ->with(compact('paket'))
+         ->with(compact('testimoni'));
    }
 
    public function hajiKhusus()
@@ -33,7 +48,8 @@ class FrontviewController extends Controller
 
    public function paketUmroh()
    {
-      return view('frontview/pages.paket-umroh');
+      $paket = DB::select('select * from paket ORDER BY id DESC');
+      return view('frontview/pages.paket-umroh')->with(compact('paket'));
    }
 
    public function paketUmrohDetailParam($param1)

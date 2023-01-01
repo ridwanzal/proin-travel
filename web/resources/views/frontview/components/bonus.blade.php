@@ -13,49 +13,68 @@
         <div class="row justify-content-center">
             <div class="col col-12 col-lg-10">
                 <div class="row mb-4">
-                    <div class="col col-12 col-lg-4">
-                        <div class="text-center">
-                            <i class="image__icon bi bi-currency-dollar"></i>
-                            <h5 class="text-white">
-                                Potongan biaya pembuatan paspor
-                            </h5>
-                            <p class="text-white">
-                                Potongan Biaya Pembuatan Paspor Senilai 350.000
-                            </p>
+                    @if (sizeof($bonusList) > 0)
+                        @foreach ($bonusList as $item)
+                            <div class="col col-12 col-lg-4">
+                                <div class="text-center">
+                                    <i class="image__icon bi bi-{{ $item->image ?? 'box' }}"></i>
+                                    <h5 class="text-white">
+                                        {{ $item->title }}
+                                    </h5>
+                                    <p class="text-white">
+                                        {{ $item->description }}
+                                    </p>
+                                </div>
+                            </div>
+                        @endforeach
+                    @else
+                        <div class="col col-12 col-lg-4">
+                            <div class="text-center">
+                                <i class="image__icon bi bi-currency-dollar"></i>
+                                <h5 class="text-white">
+                                    Potongan biaya pembuatan paspor
+                                </h5>
+                                <p class="text-white">
+                                    Potongan Biaya Pembuatan Paspor Senilai 350.000
+                                </p>
+                            </div>
                         </div>
-                    </div>
-                    <div class="col col-12 col-lg-4">
-                        <div class="text-center">
-                            <i class="image__icon bi bi-box"></i>
-                            <h5 class="text-white">
-                                Gratis Kurma Ajwa
-                            </h5>
-                            <p class="text-white">
-                                Kurma Ajwa Gratis Saat Kepulangan Senilai 200.000
-                            </p>
+                        <div class="col col-12 col-lg-4">
+                            <div class="text-center">
+                                <i class="image__icon bi bi-box"></i>
+                                <h5 class="text-white">
+                                    Gratis Kurma Ajwa
+                                </h5>
+                                <p class="text-white">
+                                    Kurma Ajwa Gratis Saat Kepulangan Senilai 200.000
+                                </p>
+                            </div>
                         </div>
-                    </div>
-                    <div class="col col-12 col-lg-4">
-                        <div class="text-center">
-                            <i class="image__icon bi bi-card-checklist"></i>
-                            <h5 class="text-white">
-                                Subsidi uang transport
-                            </h5>
-                            <p class="text-white text-center">
-                                Biaya Transportasi Pengurusan Dokumen Senilai 50.000
-                            </p>
+                        <div class="col col-12 col-lg-4">
+                            <div class="text-center">
+                                <i class="image__icon bi bi-card-checklist"></i>
+                                <h5 class="text-white">
+                                    Subsidi uang transport
+                                </h5>
+                                <p class="text-white text-center">
+                                    Biaya Transportasi Pengurusan Dokumen Senilai 50.000
+                                </p>
+                            </div>
                         </div>
-                    </div>
+                    @endif
                 </div>
                 <div class="row">
                     <div class="col col-12">
                         <div class="text-center">
-                            <h1 class="text-white">
-                                Dengan Total Bonus Senilai <span style="color:#EB5353;">600.000</span> Kamu Bisa Membeli
-                                Tambahan Oleh-Oleh
-                                Untuk Keluarga
-                                Tercinta
-                                </p>
+                            @if (sizeof($bonusHighlight) > 0)
+                                @foreach ($bonusHighlight as $item)
+                                    {!! $item->content !!}
+                                @endforeach
+                            @else
+                                <h1 class="text-white">Dengan Total Bonus Senilai <strong><span
+                                            class="text-danger">600.000 </span><strong>Kamu Bisa Membeli Tambahan
+                                            Oleh-Oleh Untuk Keluarga Tercinta</strong></strong></h1>
+                            @endif
                         </div>
                     </div>
                 </div>

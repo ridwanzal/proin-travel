@@ -5,7 +5,7 @@
         @include('frontview/components/navbar')
     </header>
     <main>
-        @include('frontview/components/offerings-all')
+        @include('frontview/components/offerings')
     </main>
     <footer>
         @include('frontview/components/footer  ')

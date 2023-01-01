@@ -30,7 +30,7 @@ $(function () {
       }
    });
 
-   $('#editor').trumbowyg(
+   $('#editor, #editor2').trumbowyg(
       {
          btns: [
             ['viewHTML'],
