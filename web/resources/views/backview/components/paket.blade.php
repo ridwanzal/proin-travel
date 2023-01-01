@@ -68,7 +68,7 @@
                     Cta Info
                 </th>
                 <th>
-                    Tindakan Info
+                    Tindakan
                 </th>
             </tr>
         </thead>
@@ -81,6 +81,11 @@
                     <td>{{ $item->cta_info }}</td>
                     <td>
                         <form method="POST" action="{{ url('paket/delete') }}">
+                            @csrf
+                            <input type="hidden" name="id" value="{{ $item->id }}" />
+                            <button class="btn btn-sm btn-danger" type="submit">Delete</button>
+                        </form>
+                        <form>
                             @csrf
                             <input type="hidden" name="id" value="{{ $item->id }}" />
                             <button class="btn btn-sm btn-danger" type="submit">Delete</button>
