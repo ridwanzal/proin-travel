@@ -12,9 +12,11 @@
                 <div class="form-group">
                     <label class="form-label">Image<i class="text-danger">*</i></label>
                     <input type="file" class="form-control mb-2" placeholder="" name="images[]" multiple required>
-                    <small class="text-danger">Maksimal 500KB - 1MB </small> <a href="https://compresspng.com/"
-                        target="_blank">Compress PNG</a> | <a href="https://compressjpeg.com/id/"
-                        target="_blank">Compress JPG</a>
+                    <div class="mb-2 mt-2">
+                        <small class="text-danger">Maksimal 500KB - 1MB </small> <a href="https://compresspng.com/"
+                            target="_blank">Compress PNG</a> | <a href="https://compressjpeg.com/id/"
+                            target="_blank">Compress JPG</a>
+                    </div>
                 </div>
             </div>
             <div class="col col-12 col-lg-6">
@@ -25,7 +27,7 @@
             </div>
             <div class="col col-12 col-lg-6">
                 <div class="form-group">
-                    <label class="form-label">Link CTA<i class="text-danger">*</i></label>
+                    <label class="form-label">Nomor Telepon (+62) CTA<i class="text-danger">*</i></label>
                     <input type="text" class="form-control mb-2" placeholder="" name="cta">
                 </div>
             </div>
@@ -60,7 +62,7 @@
                     Judul Paket
                 </th>
                 <th>
-                    Cta Link
+                    Nomor Telepon (+62) CTA
                 </th>
                 <th>
                     Cta Info

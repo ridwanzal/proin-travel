@@ -12,15 +12,16 @@
                 <div class="row">
                     <div class="col col-12 col-lg-6">
                         <div class="form-group">
-                            <label class="form-label">Nomor Telepon (dipakai untuk menghubungi via cta)<i
-                                    class="text-danger">*</i></label>
+                            <label class="form-label">Nomor Telepon (dipakai untuk menghubungi via cta tambahkan kode
+                                wilayah +62)<i class="text-danger">*</i></label>
                             <input type="text" class="form-control mb-2" placeholder="" name="nomor_telepon"
                                 value="{{ $kon->nomor_telepon }}">
                         </div>
                     </div>
                     <div class="col col-12 col-lg-6">
                         <div class="form-group">
-                            <label class="form-label">Nomor Telepon alternatif<i class="text-danger">*</i></label>
+                            <label class="form-label">Nomor Telepon alternatif (Tambahkan kode
+                                wilayah +62)<i class="text-danger">*</i></label>
                             <input type="text" class="form-control mb-2" placeholder="" name="nomor_telepon_alt"
                                 value="{{ $kon->nomor_telepon_alt }}">
                         </div>
@@ -63,14 +64,15 @@
             <div class="row">
                 <div class="col col-12 col-lg-6">
                     <div class="form-group">
-                        <label class="form-label">Nomor Telepon (dipakai untuk menghubungi via cta)<i
-                                class="text-danger">*</i></label>
+                        <label class="form-label">Nomor Telepon (dipakai untuk menghubungi via cta tambahkan kode
+                            wilayah +62)<i class="text-danger">*</i></label>
                         <input type="text" class="form-control mb-2" placeholder="" name="nomor_telepon">
                     </div>
                 </div>
                 <div class="col col-12 col-lg-6">
                     <div class="form-group">
-                        <label class="form-label">Nomor Telepon alternatif<i class="text-danger">*</i></label>
+                        <label class="form-label">Nomor Telepon alternatif (Tambahkan kode
+                            wilayah +62)<i class="text-danger">*</i></label>
                         <input type="text" class="form-control mb-2" placeholder="" name="nomor_telepon_alt">
                     </div>
                 </div>

@@ -25,12 +25,14 @@ class FrontviewController extends Controller
       $bonusList = DB::select('select * from bonus_list order BY id ASC');
       $bonusHighlight = DB::select('select * from bonus_highlight ORDER BY id DESC limit 1');
       $testimoni = DB::select('select * from testimoni ORDER BY id ASC');
+      $paket = DB::select('select * from paket ORDER BY id DESC');
       return view('frontview/pages.home')->with('source', $message)
          ->with(compact('faqAll'))
          ->with(compact('contacts'))
          ->with(compact('documentation'))
          ->with(compact('bonusList'))
          ->with(compact('bonusHighlight'))
+         ->with(compact('paket'))
          ->with(compact('testimoni'));
    }
 
@@ -46,7 +48,8 @@ class FrontviewController extends Controller
 
    public function paketUmroh()
    {
-      return view('frontview/pages.paket-umroh');
+      $paket = DB::select('select * from paket ORDER BY id DESC');
+      return view('frontview/pages.paket-umroh')->with(compact('paket'));
    }
 
    public function paketUmrohDetailParam($param1)
