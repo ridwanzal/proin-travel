@@ -25,7 +25,7 @@ class BackviewController extends Controller
         ]);
         if (Auth::attempt(['email' => $request->email, 'password' => $request->password])) {
             $request->session()->regenerate();
-            return redirect()->intended('/dashboard');
+            return redirect()->intended('/backview/paket');
         }
 
         return back()->with('error', 'We have received your message and would like to thank you for writing to us.');
