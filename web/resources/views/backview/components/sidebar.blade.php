@@ -66,7 +66,7 @@
                     <li class="nav-item">
                         <a class="nav-link" href="{{ url('backview/kontak') }}">
                             <i class="dashi bi bi-files me-2"></i>
-                            Kontak
+                            Kontak & CTA
                         </a>
                     </li>
                 </ul>

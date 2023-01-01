@@ -16,6 +16,7 @@ class ContactController extends Controller
         DB::table($this->table)->insert([
             'alamat' => $request->alamat ?? '-',
             'nomor_telepon' => $request->nomor_telepon ?? '-',
+            'nomor_telepon_alt' => $request->nomor_telepon_alt ?? '-',
             'facebook' => $request->facebook ?? '-',
             'instagram' => $request->instagram ?? '-',
             'youtube' => $request->youtube ?? '-',

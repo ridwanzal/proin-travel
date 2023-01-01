@@ -42,7 +42,6 @@ function testiType($param)
                     <label class="form-label">Tipe<i class="text-danger">*</i></label>
                     <select class="form-control" name="type" required>
                         <option value="1">Image</option>
-                        <option value="1">Video</option>
                     </select>
                 </div>
             </div>
@@ -61,7 +60,7 @@ function testiType($param)
                     Judul
                 </th>
                 <th>
-                    Deskripsi
+                    Nama Pemberi Testimoni
                 </th>
                 <th>
                     Tipe

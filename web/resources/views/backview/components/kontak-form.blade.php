@@ -1,4 +1,4 @@
-<h6 class="h5 mb-2">Update Kontak</h6>
+<h6 class="h5 mb-2">Update Kontak & CTA</h6>
 <div class="card p-3 mb-5 pb-3">
     @if (Session::has('kontak-success'))
         <div class="alert alert-success alert-dismissible fade show" role="alert">
@@ -12,9 +12,17 @@
                 <div class="row">
                     <div class="col col-12 col-lg-6">
                         <div class="form-group">
-                            <label class="form-label">Nomor Telepon<i class="text-danger">*</i></label>
+                            <label class="form-label">Nomor Telepon (dipakai untuk menghubungi via cta)<i
+                                    class="text-danger">*</i></label>
                             <input type="text" class="form-control mb-2" placeholder="" name="nomor_telepon"
                                 value="{{ $kon->nomor_telepon }}">
+                        </div>
+                    </div>
+                    <div class="col col-12 col-lg-6">
+                        <div class="form-group">
+                            <label class="form-label">Nomor Telepon alternatif<i class="text-danger">*</i></label>
+                            <input type="text" class="form-control mb-2" placeholder="" name="nomor_telepon_alt"
+                                value="{{ $kon->nomor_telepon_alt }}">
                         </div>
                     </div>
                     <div class="col col-12 col-lg-6">
@@ -55,8 +63,15 @@
             <div class="row">
                 <div class="col col-12 col-lg-6">
                     <div class="form-group">
-                        <label class="form-label">Nomor Telepon<i class="text-danger">*</i></label>
+                        <label class="form-label">Nomor Telepon (dipakai untuk menghubungi via cta)<i
+                                class="text-danger">*</i></label>
                         <input type="text" class="form-control mb-2" placeholder="" name="nomor_telepon">
+                    </div>
+                </div>
+                <div class="col col-12 col-lg-6">
+                    <div class="form-group">
+                        <label class="form-label">Nomor Telepon alternatif<i class="text-danger">*</i></label>
+                        <input type="text" class="form-control mb-2" placeholder="" name="nomor_telepon_alt">
                     </div>
                 </div>
                 <div class="col col-12 col-lg-6">
