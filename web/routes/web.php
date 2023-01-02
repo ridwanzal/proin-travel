@@ -56,6 +56,8 @@ Route::post('/bonuslist/store', [BonusController::class, 'storeList'])->name('bo
 Route::post('/bonushighlight/store', [BonusController::class, 'storeHightlight'])->name('bonushighlight.store');
 Route::post('/bonuslist/delete', [BonusController::class, 'deleteList'])->name('bonusList.delete');
 Route::post('/bonushighlight/delete', [BonusController::class, 'deleteHighlight'])->name('bonushighlight.delete');
+Route::get('/backview/bonus/edit/{id}', [BackviewController::class, 'bonusedit'])->name('bonus.edit');
+Route::post('/bonuslist/update', [BonusController::class, 'update'])->name('bonuslist.update');
 
 Route::post('/testimoni/store', [TestiController::class, 'store'])->name('testi.store');
 Route::post('/testimoni/delete', [TestiController::class, 'delete'])->name('testi.delete');
