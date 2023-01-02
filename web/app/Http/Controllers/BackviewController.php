@@ -66,7 +66,7 @@ class BackviewController extends Controller
     public function bonusedit($id)
     {
         $bonusAll =  DB::select("SELECT * FROM bonus_list where id = $id");
-        return view('backview/pages.faqedit')->with(compact('bonusAll'));
+        return view('backview/pages.bonusedit')->with(compact('bonusAll'));
     }
 
 
