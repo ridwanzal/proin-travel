@@ -38,23 +38,27 @@ class FrontviewController extends Controller
 
    public function hajiKhusus()
    {
-      return view('frontview/pages.haji-khusus');
+      $contacts = DB::select('select * from contacts order BY id DESC LIMIT 1');
+      return view('frontview/pages.haji-khusus')->with(compact('contacts'));
    }
 
    public function jadiAgen()
    {
-      return view('frontview/pages.jadi-agen');
+      $contacts = DB::select('select * from contacts order BY id DESC LIMIT 1');
+      return view('frontview/pages.jadi-agen')->with(compact('contacts'));
    }
 
    public function paketUmroh()
    {
+      $contacts = DB::select('select * from contacts order BY id DESC LIMIT 1');
       $paket = DB::select('select * from paket ORDER BY id DESC');
-      return view('frontview/pages.paket-umroh')->with(compact('paket'));
+      return view('frontview/pages.paket-umroh')->with(compact('paket'))->with(compact('contacts'));
    }
 
    public function paketUmrohDetailParam($param1)
    {
       $price = null;
+      $contacts = DB::select('select * from contacts order BY id DESC LIMIT 1');
       if ($param1 == 'januari') {
          $price = env('PRICE_JAN', '$$$');
       } else if ($param1 == 'februari') {
@@ -82,11 +86,12 @@ class FrontviewController extends Controller
       } else {
          $price = '$$$';
       }
-      return view('frontview/pages.detail.paket-umroh-detail', ['price' => $price, 'month' => $param1]);
+      return view('frontview/pages.detail.paket-umroh-detail', ['price' => $price, 'month' => $param1])->with(compact('contacts'));
    }
 
    public function paketUmrohDetail()
    {
+      $contacts = DB::select('select * from contacts order BY id DESC LIMIT 1');
       return view('frontview/pages.detail.paket-umroh-detail');
    }
 }

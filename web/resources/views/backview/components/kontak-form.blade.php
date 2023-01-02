@@ -40,12 +40,9 @@
                                 value="{{ $kon->instagram }}">
                         </div>
                     </div>
-                    <div class="col col-12 col-lg-6">
-                        <div class="form-group">
-                            <label class="form-label">Youtube<i class="text-danger">*</i></label>
-                            <input type="text" class="form-control mb-2" placeholder="" name="youtube"
-                                value="{{ $kon->youtube }}">
-                        </div>
+                    <div class="form-group">
+                        <input type="hidden" class="form-control mb-2" placeholder="" name="youtube"
+                            value="{{ $kon->youtube }}">
                     </div>
                     <div class="row">
                         <div class="col col-12 col-lg-6">

@@ -78,6 +78,8 @@ function testiType($param)
                     <td>{{ $item->subtitle }}</td>
                     <td>{{ testiType($item->type) }}</td>
                     <td>
+                        <a href="{{ url("/backview/testimoni/edit/$item->id") }}" class="btn btn-sm btn-success mb-2"
+                            type="submit">Edit</a>
                         <form method="POST" action="{{ url('testimoni/delete') }}">
                             @csrf
                             <input type="hidden" name="id" value="{{ $item->id }}" />
