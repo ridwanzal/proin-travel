@@ -1,3 +1,6 @@
+<div class="mb-4">
+    <a href="{{ url('backview/bonus') }}" class="me-4">Kembali</a>
+</div>
 <h6 class="h5 mb-2">Bonus Listing</h6>
 @if (Session::has('success'))
     <div class="alert alert-success alert-dismissible fade show" role="alert">

@@ -1,3 +1,6 @@
+<div class="mb-4">
+    <a href="{{ url('backview/faq') }}" class="me-4">Kembali</a>
+</div>
 <h6 class="h5 mb-2">Edit FAQ</h6>
 <div class="card p-3 mb-5 pb-3">
     @if (Session::has('success'))

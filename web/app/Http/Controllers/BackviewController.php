@@ -112,6 +112,12 @@ class BackviewController extends Controller
         }
     }
 
+    public function testimoniedit($id)
+    {
+        $testimoni =  DB::select("SELECT * FROM testimoni where id = $id");
+        return view('backview/pages.testimoniedit')->with(compact('testimoni'));
+    }
+
     public function dokumentasi()
     {
         if (Auth::check()) {

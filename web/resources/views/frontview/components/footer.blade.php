@@ -32,12 +32,16 @@
 
 
                 <p class="text-white mt-5 mb-4" style="font-size: 14px;">
-                    @if (env('CUST_ADDRESS') != '')
-                        {{ env('CUST_ADDRESS') }}
+                    @if (sizeof($contacts) > 0)
+                        {{ $contacts[0]->alamat }}
                     @else
-                        Dapatkan layanan perjalanan ibadah umroh dan haji<br /> sesuai Sunnah dengan memilih Proin
-                        Travel<br /> sebagai
-                        agen perjalanan ibadah Anda.
+                        @if (env('CUST_ADDRESS') != '')
+                            {{ env('CUST_ADDRESS') }}
+                        @else
+                            Dapatkan layanan perjalanan ibadah umroh dan haji<br /> sesuai Sunnah dengan memilih Proin
+                            Travel<br /> sebagai
+                            agen perjalanan ibadah Anda.
+                        @endif
                     @endif
                 </p>
             </div>
@@ -63,16 +67,30 @@
                 <form>
                     <h5 class="text-white d-none">SOCIALS</h5>
                     <div class="d-flex" style="">
-                        @if (env('CUST_FB') != '')
-                            <a target="_blank" href="{{ env('CUST_FB') }}"><i
-                                    class="text-white bi-facebook me-md-4 me-3" role="img"
-                                    aria-label="Facebook"></i></a>
-                        @endif
+                        @if (sizeof($contacts) > 0)
+                            @if ($contacts[0]->facebook != '-')
+                                <a target="_blank" href="{{ $contacts[0]->facebook }}"><i
+                                        class="text-white bi-facebook me-md-4 me-3" role="img"
+                                        aria-label="Facebook"></i></a>
+                            @endif
 
-                        @if (env('CUST_IG') != '')
-                            <a target="_blank" ef="{{ env('CUST_IG') }}"><i
-                                    class="text-white bi-instagram me-md-4  me-3" role="img"
-                                    aria-label="Instagram"></i></a>
+                            @if ($contacts[0]->facebook != '-')
+                                <a target="_blank" href="{{ $contacts[0]->instagram }}"><i
+                                        class="text-white bi-instagram me-md-4 me-3" role="img"
+                                        aria-label="Facebook"></i></a>
+                            @endif
+                        @else
+                            @if (env('CUST_FB') != '')
+                                <a target="_blank" href="{{ env('CUST_FB') }}"><i
+                                        class="text-white bi-facebook me-md-4 me-3" role="img"
+                                        aria-label="Facebook"></i></a>
+                            @endif
+
+                            @if (env('CUST_IG') != '')
+                                <a target="_blank" ef="{{ env('CUST_IG') }}"><i
+                                        class="text-white bi-instagram me-md-4  me-3" role="img"
+                                        aria-label="Instagram"></i></a>
+                            @endif
                         @endif
                     </div>
                     <a></a>

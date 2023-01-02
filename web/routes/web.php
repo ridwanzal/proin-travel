@@ -30,7 +30,6 @@ Route::get('/jadi-agen', [FrontviewController::class, 'jadiAgen']);
 Route::get('/paket-umroh', [FrontviewController::class, 'paketUmroh']);
 Route::get('/paket-umroh/detail/{param1}', [FrontviewController::class, 'paketUmrohDetailParam']);
 
-
 // Backview
 Route::get('/backview/kontak', [BackviewController::class, 'kontak']);
 Route::get('/backview/paket', [BackviewController::class, 'paket']);
@@ -61,6 +60,9 @@ Route::post('/bonuslist/update', [BonusController::class, 'update'])->name('bonu
 
 Route::post('/testimoni/store', [TestiController::class, 'store'])->name('testi.store');
 Route::post('/testimoni/delete', [TestiController::class, 'delete'])->name('testi.delete');
+Route::get('/backview/testimoni/edit/{id}', [BackviewController::class, 'testimoniedit'])->name('testimoni.edit');
+Route::post('/testimoni/update', [TestiController::class, 'update'])->name('testi.update');
+Route::post('/testimoni/updateimage', [TestiController::class, 'updateimage'])->name('testi.updateimage');
 
 Route::post('/dokumentasi/store', [DokController::class, 'store'])->name('dokumentasi.store');
 Route::post('/dokumentasi/delete', [DokController::class, 'delete'])->name('dokumentasi.delete');
