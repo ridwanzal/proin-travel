@@ -49,7 +49,6 @@
 <link rel="shortcut icon" href="{{ asset('images/icon/favicon.png') }}" type="image/x-icon">
 <link rel="apple-touch-icon" href="{{ asset('images/icon/favicon.png') }}">
 <link rel="canonical" href="https://prointourstravel.com" />
-<link rel="stylesheet" href="//cdn.datatables.net/1.10.7/css/jquery.dataTables.min.css">
 <script src="https://polyfill.io/v3/polyfill.min.js?features=default"></script>
 
 <body>
@@ -61,6 +60,7 @@
     @yield('content')
     <!-- -->
     <script src="{{ asset('js/app.js') }}"></script>
+    <script src="{{ asset('js/datatables-bs5.js') }}"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/lazysizes/5.3.2/lazysizes.min.js"></script>
     <script>
         window.lazySizesConfig = {
