@@ -128,6 +128,26 @@ class BackviewController extends Controller
         }
     }
 
+    public function daftaragen()
+    {
+        if (Auth::check()) {
+            $daftaragen = DB::select('select * from daftar_agen order BY id DESC');
+            return view('backview/pages.daftaragen')->with(compact('daftaragen'));
+        }else{
+            return view('backview/pages.login');
+        }
+    }
+
+    public function daftarhaji()
+    {
+        if(Auth::check()){
+            $daftarhaji = DB::select('select * from daftar_haji order BY id DESC');
+            return view('backview/pages.daftarhaji')->with(compact('daftarhaji'));
+        }else {
+            return view('backview/pages.login');
+        }
+    }
+
     public function logout(Request $request)
     {
         Auth::logout();

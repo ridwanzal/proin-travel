@@ -4,6 +4,8 @@ use App\Http\Controllers\BackviewController;
 use App\Http\Controllers\BonusController;
 use App\Http\Controllers\ContactController;
 use App\Http\Controllers\ContactUsFormController;
+use App\Http\Controllers\DaftaragenController;
+use App\Http\Controllers\DaftarHajiController;
 use App\Http\Controllers\DokController;
 use App\Http\Controllers\FaqController;
 use Illuminate\Support\Facades\Route;
@@ -37,6 +39,8 @@ Route::get('/backview/bonus', [BackviewController::class, 'bonus']);
 Route::get('/backview/testimoni', [BackviewController::class, 'testimoni']);
 Route::get('/backview/faq', [BackviewController::class, 'faq']);
 Route::get('/backview/dokumentasi', [BackviewController::class, 'dokumentasi']);
+Route::get('/backview/daftaragen', [BackviewController::class, 'daftaragen']);
+Route::get('/backview/daftarhaji', [BackviewController::class, 'daftarhaji']);
 
 Route::get('/auth/login', [BackviewController::class, 'index']);
 Route::get('/login', [BackviewController::class, 'index']);
@@ -72,3 +76,12 @@ Route::post('/paket/store', [PaketController::class, 'store'])->name('paket.stor
 Route::post('/paket/update', [PaketController::class, 'update'])->name('paket.update');
 Route::post('/paket/updateimage', [PaketController::class, 'updateimage'])->name('paket.updateimage');
 Route::post('/paket/delete', [PaketController::class, 'delete'])->name('paket.delete');
+
+Route::post('/daftaragen/store', [DaftaragenController::class, 'store'])->name('daftaragen.store');
+Route::post('/daftarhaji/store', [DaftarHajiController::class, 'store'])->name('daftarhaji.store');
+
+
+// Livewire
+Route::get('/user-datatables', function () {
+  return view('welcome');
+});

@@ -59,4 +59,19 @@ $(function () {
          autogrowOnEnter: true
       }
    );
+
+   // Start datatable
+   $('.js-datatable').each(function (i, e) {
+      $(this).DataTable({
+         "bFilter": true,
+         "lengthMenu": [20, 50, 100],
+         "bSort": true,
+         "ordering": true,
+         "responsive": true,
+         "language": {
+            "emptyTable": "<i class='bi-info-circle-fill'></i>&nbsp;&nbsp;Tidak ada data yang ditampilkan"
+         },
+      });
+   });
+   // End datatable
 });

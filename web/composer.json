@@ -11,8 +11,9 @@
         "laravel/framework": "^8.75",
         "laravel/sanctum": "^2.11",
         "laravel/tinker": "^2.5",
-        "rappasoft/laravel-livewire-tables": "^2.9",
-        "yajra/laravel-datatables-oracle": "^9.21"
+        "livewire/livewire": "^2.10",
+        "mediconesystems/livewire-datatables": "^0.10.0",
+        "rappasoft/laravel-livewire-tables": "^2.9"
     },
     "require-dev": {
         "facade/ignition": "^2.5",

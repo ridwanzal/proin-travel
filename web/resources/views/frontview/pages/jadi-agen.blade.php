@@ -8,7 +8,7 @@
         @include('frontview/components/section-agen')
     </main>
     <footer>
-        @include('frontview/components/footer  ')
+        @include('frontview/components/footer')
     </footer>
     @include('frontview/components/cookie')
 @endsection

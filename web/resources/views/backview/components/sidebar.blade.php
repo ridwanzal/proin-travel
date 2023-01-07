@@ -69,6 +69,18 @@
                             Kontak & CTA
                         </a>
                     </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="{{ url('backview/daftaragen') }}">
+                            <i class="dashi bi bi-people me-2"></i>
+                            Funelling Agen
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="{{ url('backview/daftarhaji') }}">
+                            <i class="dashi bi bi-box-fill me-2"></i>
+                            Funelling Daftar Haji
+                        </a>
+                    </li>
                 </ul>
                 <hr />
                 <ul class="nav flex-column mb-2">
