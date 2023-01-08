@@ -69,7 +69,6 @@ class BackviewController extends Controller
         return view('backview/pages.bonusedit')->with(compact('bonusAll'));
     }
 
-
     public function faq()
     {
         if (Auth::check()) {
@@ -132,7 +131,8 @@ class BackviewController extends Controller
     {
         if (Auth::check()) {
             $daftaragen = DB::select('select * from daftar_agen order BY id DESC');
-            return view('backview/pages.daftaragen')->with(compact('daftaragen'));
+            $statusForm = DB::select('select * from cta_update where id_type = 1');
+            return view('backview/pages.daftaragen')->with(compact('daftaragen'))->with(compact('statusForm'));
         }else{
             return view('backview/pages.login');
         }
@@ -142,10 +142,33 @@ class BackviewController extends Controller
     {
         if(Auth::check()){
             $daftarhaji = DB::select('select * from daftar_haji order BY id DESC');
-            return view('backview/pages.daftarhaji')->with(compact('daftarhaji'));
+            $statusForm = DB::select('select * from cta_update where id_type = 2');
+            return view('backview/pages.daftarhaji')->with(compact('daftarhaji'))->with(compact('statusForm'));
         }else {
             return view('backview/pages.login');
         }
+    }
+
+    public function upagencta(Request $request)
+    {
+        $id = $request->id_type;
+        DB::table('cta_update')->where('id_type', $id)
+        ->update([
+                'type' => $request->type
+            ]);
+        return redirect('/backview/daftaragen')
+            ->with('success', 'You have successfully updated data');
+    }
+
+    public function uphajicta(Request $request)
+    {
+        $id = $request->id_type;
+        DB::table('cta_update')->where('id_type', $id)
+        ->update([
+                'type' => $request->type
+            ]);
+        return redirect('/backview/daftarhaji')
+            ->with('success', 'You have successfully updated data');
     }
 
     public function logout(Request $request)

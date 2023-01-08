@@ -74,4 +74,18 @@ $(function () {
       });
    });
    // End datatable
+
 });
+
+// copy
+function copyTeks($id){
+   var valueText = $('#dataCopy_' + $id).text();
+   console.log(valueText)
+   var $temp = $("<input>");
+   $("body").append($temp);
+   $temp.val(valueText).select();
+   document.execCommand("copy");
+   $temp.remove();
+   alert("data '" + valueText + "' berhasil di salin" )
+}
+// end copy

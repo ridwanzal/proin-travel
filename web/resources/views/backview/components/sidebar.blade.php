@@ -72,13 +72,13 @@
                     <li class="nav-item">
                         <a class="nav-link" href="{{ url('backview/daftaragen') }}">
                             <i class="dashi bi bi-people me-2"></i>
-                            Funelling Agen
+                            Calon Pendaftar Agen
                         </a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="{{ url('backview/daftarhaji') }}">
                             <i class="dashi bi bi-box-fill me-2"></i>
-                            Funelling Daftar Haji
+                            Calon Pendaftar Haji
                         </a>
                     </li>
                 </ul>
