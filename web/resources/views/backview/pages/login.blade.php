@@ -29,11 +29,6 @@
                             <label for="floatingPassword">Password</label>
                         </div>
 
-                        <div class="checkbox mb-3">
-                            <label>
-                                <input type="checkbox" value="remember-me"> Remember me
-                            </label>
-                        </div>
                         <button class="w-100 btn btn-lg btn-warning" type="submit">Masuk</button>
                         <p style="font-size: 12px;" class="text-center mt-3 mb-3 text-muted">&copy; Copyright <?= date('Y') ?></p>
                     </form>
