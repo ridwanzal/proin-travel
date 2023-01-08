@@ -24,52 +24,55 @@
                         </p>
                     </div>
                 </div>
-                <div class="d-block">
-                    <form method="POST" action="{{route('daftarhaji.store')}}">
-                        @csrf
-                        <div class="row mb-5 justify-content-center ">
-                            <div class="col col-12 col-lg-6">
-                                <h1 class="text__title text-center">
-                                    Konsultasi Haji Khusus Gratis
-                                </h1>
+
+                @if ($statusForm[0]->type == 1)
+                    <div class="d-block">
+                        <form method="POST" action="{{route('daftarhaji.store')}}">
+                            @csrf
+                            <div class="row mb-5 justify-content-center ">
+                                <div class="col col-12 col-lg-6">
+                                    <h1 class="text__title text-center">
+                                        Konsultasi Haji Khusus Gratis
+                                    </h1>
+                                </div>
                             </div>
-                        </div>
-                        <div class="row justify-content-center mb-3">
-                            <div class="col col-12 col-lg-6">
-                                @if (Session::has('success'))
-                                    <div class="alert alert-success alert-dismissible fade show" role="alert">
-                                        <strong>{{ Session::get('success') }}</strong>
+                            <div class="row justify-content-center mb-3">
+                                <div class="col col-12 col-lg-6">
+                                    @if (Session::has('success'))
+                                        <div class="alert alert-success alert-dismissible fade show" role="alert">
+                                            <strong>{{ Session::get('success') }}</strong>
+                                        </div>
+                                    @endif
+                                    <div class="form-group">
+                                        <input name="nama" type="text" class="form-control" placeholder="Nama" required />
                                     </div>
-                                @endif
-                                <div class="form-group">
-                                    <input name="nama" type="text" class="form-control" placeholder="Nama" required />
                                 </div>
                             </div>
-                        </div>
-                        <div class="row justify-content-center mb-3">
-                            <div class="col col-12 col-lg-6">
-                                <div class="form-group">
-                                    <input name="whatsapp" type="text" class="form-control" placeholder="No Whatsapp" required/>
+                            <div class="row justify-content-center mb-3">
+                                <div class="col col-12 col-lg-6">
+                                    <div class="form-group">
+                                        <input name="whatsapp" type="text" class="form-control" placeholder="No Whatsapp" required/>
+                                    </div>
                                 </div>
                             </div>
-                        </div>
-                        <div class="row justify-content-center">
-                            <div class="col col-12 col-lg-6">
-                                <div class="form-group">
-                                    <input name="domisili" type="text" class="form-control" placeholder="Domisili" required/>
+                            <div class="row justify-content-center">
+                                <div class="col col-12 col-lg-6">
+                                    <div class="form-group">
+                                        <input name="domisili" type="text" class="form-control" placeholder="Domisili" required/>
+                                    </div>
                                 </div>
                             </div>
-                        </div>
-                        <div class="text-center mt-4">
-                            <button type="submit" class="btn btn-success">Submit</button>
-                        </div>
-                    </form>
-                </div>
-                <div class="mt-5 mb-5 text-center ">atau</div>
-                <div class="text-center mt-4">
-                    <a href="https://api.whatsapp.com/send?phone=+{{ env('CUST_PHONE') }}&amp;text=Assalamualaikum Admin, Saya Ingin Tanya-Tanya Haji Khusus nya Boleh?"
-                        target="_blank" class="btn btn-md btn-warning mb-3">Hubungi Kami</a>
-                </div>
+                            <div class="text-center mt-4">
+                                <button type="submit" class="btn btn-success">Submit</button>
+                            </div>
+                        </form>
+                    </div>
+                @else
+                    <div class="text-center mt-5">
+                        <a href="https://api.whatsapp.com/send?phone=+{{ env('CUST_PHONE') }}&amp;text=Assalamualaikum Admin, Saya Ingin Tanya-Tanya Haji Khusus nya Boleh?"
+                            target="_blank" class="btn btn-md btn-warning mb-3">Hubungi Kami</a>
+                    </div>
+                @endif
             </div>
         </div>
     </div>

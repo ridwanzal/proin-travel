@@ -39,13 +39,15 @@ class FrontviewController extends Controller
    public function hajiKhusus()
    {
       $contacts = DB::select('select * from contacts order BY id DESC LIMIT 1');
-      return view('frontview/pages.haji-khusus')->with(compact('contacts'));
+      $statusForm = DB::select('select * from cta_update where id_type = 2 LIMIT 1');
+      return view('frontview/pages.haji-khusus')->with(compact('contacts'))->with(compact('statusForm'));
    }
 
    public function jadiAgen()
    {
       $contacts = DB::select('select * from contacts order BY id DESC LIMIT 1');
-      return view('frontview/pages.jadi-agen')->with(compact('contacts'));
+      $statusForm = DB::select('select * from cta_update where id_type = 1 LIMIT 1');
+      return view('frontview/pages.jadi-agen')->with(compact('contacts'))->with(compact('statusForm'));
    }
 
    public function paketUmroh()

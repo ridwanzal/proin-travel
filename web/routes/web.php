@@ -41,6 +41,8 @@ Route::get('/backview/faq', [BackviewController::class, 'faq']);
 Route::get('/backview/dokumentasi', [BackviewController::class, 'dokumentasi']);
 Route::get('/backview/daftaragen', [BackviewController::class, 'daftaragen']);
 Route::get('/backview/daftarhaji', [BackviewController::class, 'daftarhaji']);
+Route::post('/daftarhaji/update', [BackviewController::class, 'uphajicta'])->name('daftarhaji.uphajicta');
+Route::post('/daftaragen/update', [BackviewController::class, 'upagencta'])->name('daftarhaji.upagencta');
 
 Route::get('/auth/login', [BackviewController::class, 'index']);
 Route::get('/login', [BackviewController::class, 'index']);
